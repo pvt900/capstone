@@ -58,5 +58,5 @@ driver.close()
 
 with open('historical_data.txt', 'w') as handler: #output of scraped data
     print("writing file...")
-    #for listitem in a:
-    handler.write(a)
+    for listitem in a:
+        handler.write('%s\n' % listitem)
