@@ -38,7 +38,7 @@ browser.launch_browser()
 # the xxx is placeholder for 3 empty spaces
 
 
-########## Meeting W/ Zelle Information #################
+########## Meeting W/ Zelle Information #################git p
 # Methods for Error-Checking Submission  - Since it's all drop-down if the entry is bad it returns an error, do we need another level of error-checking? 
 # return list of options and set by index? - W
 # Return NExt Week with Concrete API Proposal for Live & Historic
