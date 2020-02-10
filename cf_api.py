@@ -3,23 +3,21 @@
 import mechanicalsoup
 from bs4 import BeautifulSoup as soup
 
-#Sets StatefulBrowser Object to winnet then it it grabs form
-browser = mechanicalsoup.StatefulBrowser()
-winnet = "http://winnet.wartburg.edu/coursefinder/"
-browser.open(winnet)
-values = browser.get_current_page().findAll('option')
-for item in values:
-    valuetext = str(item).split('"')
-    option = valuetext[1] + ' ' + item.get_text()
-    print(option)
-
-
-
+#values = self.browser.get_current_page().findAll('option')
+#for item in values:
+#    valuetext = str(item).split('"')
+#    option = valuetext[1] + ' ' + item.get_text()
+#    print(option)
 
 
 class search:    #uses helper functions to query and pull results
 
     def __init__(self):
+        #Sets Statefulself.browser Object to winnet then it it grabs form
+        self.browser = mechanicalsoup.StatefulBrowser()
+        self.browser.open("http://winnet.wartburg.edu/coursefinder/")
+        self.page = self.browser.select_form()
+        #Form Variables
         self.keyword = None
         self.dept = None
         self.term = None
@@ -32,94 +30,104 @@ class search:    #uses helper functions to query and pull results
         self.instructor = None
         self.course_open = None
        
-    def by_keyword(key):
+    def by_keyword(self,key):
         #inputs user keyword into course finder
         keyword = key
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$TextBox_keyword', keyword)
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$TextBox_keyword', keyword)
 
-    def get_deptartments():
+    def get_deptartments(self):
         #pulls current list of departments
         #and their corresponding codes from winnet
         select.form(selector = 'ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department')
         print(get_current_form())
 
-    def by_department(department):
+    def by_department(self,department):
         #selects department for course finder
         dept = department
-        Searchform.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept)
+        self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept)
 
     #def get_terms():
         #pulls list of current available terms to query
         #pull each option, append to list
         
-    def by_term(term):
+    def by_term(self,term):
         #selects term from course finder
-        Searchform.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
+        self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
 
 
     #def get_times():
         #pulls list of class meeting times
         #pull each option, append to list
         
-    def by_time(time):
+    def by_time(self,time):
         #selects class meeting time in course finder
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_MeetingTime', time)
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_MeetingTime', time)
 
     #def get_ee_reqs():
         #pulls list of essential es class types
         #pull each option, append to list
 
-    def by_ee_req(ee):
+    def by_ee_req(self,ee):
         #selects essential ed class type
         if ee == 'Y':
-            Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', 'all')
+            self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', 'all')
         elif ee == 'N':
-            Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', 'none')
+            self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', 'none')
         else:
             print("Invalid input, function only accepts 'Y' or 'N'")
-            
         
-
-
    # def get_cult_div_reqs():
         #pulls list of 
         #pull each option, append to list
 
-    def is_cult_div(option):
+    def is_cult_div(self,option):
         if option == 'C':
-            Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'C')
+            self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'C')
         elif option == 'D':
-            Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'D')
+            self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'D')
         elif option == "BOTH":
-            Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'all')
+            self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', 'all')
         else:
             print("Please enter C, D, or BOTH. If you do not want to select an option, do not use this function.")
 
-    def is_writing():
+    def is_writing(self):
         #selects Writing Intensive option
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'WI')
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'WI')
 
-    def is_pass_fail():
+    def is_pass_fail(self):
         #selects Pass/Fail classes
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_PassFail', 'PF')
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_PassFail', 'PF')
 
     #def get_instructors():
         #gets list of all current instructors
         #pull each option, append to list
 
-    def by_instructor(id_number):
+    def by_instructor(self,id_number):
         #selects instructor in dropdown menue
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', instructor)
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', id_number)
 
-    def couse_open():
+    def couse_open(self):
         #selects checkbox
-        Searchform.set('ctl00$ContentPlaceHolder1$FormView1$CheckBox_OpenCourses', True)
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$CheckBox_OpenCourses', True)
+    def search_form(self):
+        #Submits Course Search
+        self.page.choose_submit('ctl00$ContentPlaceHolder1$FormView1$Button_FindNow')
+        self.browser.submit_selected()# Submits Form. Retrieves Results.
+        
+    def display_browser(self):
+        #Displays self.browser Windows of Current Page
+        self.browser.launch_browser()
+    
+    def chunk(self,l, n): #class that partitions our lists neatly
+        print("chunking...")
+        for i in range(0, len(l), n):
+            yield l[i:i + n]
 
+    def save_file(self):
+        table_of_data = self.browser.get_current_page().find('table')
+        data = table_of_data.get_text().split('\n')
 
-
-#browser.submit_selected()# Submits Form. Retrieves Results.
-#table = browser.get_current_page().find('table') #Finds Result Table
-#print(type(table))
-#rows = table.get_text().split('\n') # List of all Class Rows split by \n. 
-#print(type(rows))
-#browser.launch_browser()
+        with open('test_data.txt', 'w') as handler: #output of scraped data
+            print("writing file...")
+            for listitem in data:
+                handler.write('%s\n' % listitem)           
