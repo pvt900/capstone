@@ -35,7 +35,7 @@ Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', '0
 
 
 for i in range(len(value_list)+1):
-    print(value_list[i],'::::',item_list[i])
+    print(value_list[i],':',item_list[i])
 
 
 #Submits Page, Grabs results and then launches a browser for test purposes.
@@ -46,13 +46,28 @@ for i in range(len(value_list)+1):
 #print(type(rows))
 #browser.launch_browser()
 
-Departments = {'All':'None Selected', }
-Terms = {'May':'May Term', 'Summer':'Summer Session', 'Winter':'Winter Term', 'Fall':'Fall Term'}
-Times = {'all':'Show all''od':'Other Evening', 'oe':'Other Evening'}
-ED = {'all':'Show all EE courses', 'CP':'CP - Capstone', 'FL':'FL- Foreign Language', 'FR':'FR - Faith & Reflection','HF':'HF - Humanities/Fine Arts Interconnected','MR':'MR - Mathematical Reasoning','NS':'NS - Natural Science Interconnected','SR':'SR - Scientific Reasoning','SS':'SS - Social Science Interconnected'}
+Departments = {'All':'None Selected','AC   ':'Accounting', 'ART  ':'Art','BI   ':'Biology','BA   ':'Business Administration','CH   ':'Chemistry', 'CS   ':'Computer Science',
+               'CCJ  ':'Criminology/Criminal Justice','EC   ':'Economics', 'ED   ':'Education', 'ES':'Engineering Science', 'EN   ':'English','EI   ':'English International Students',
+               'ENV  ':'Environmental Science', 'EXS  ':'Exercise Science', 'FL  ':'Foreign Language','FR   ':'French','SCI  ':'General Science',
+               'GER  ':'German','GM   ':'Global Multicultural','GR   ':'Greek','HE   ':'Health','HB   ':'Hebrew','HI   ':'History','IS   ':'Inquiry Studies',
+               'ID   ':'Interdisciplinary','COM  ':'Journalism and Communication','LS   ':'Liberal Studies','MA   ':'Mathematics', 'MU   ':'Music',
+               'NSC  ':'Neuroscience','PJ   ':'Peace and Justice Studies','PH   ':'Philiosophy','PE   ':'Physical Education','PHY  ':'Physics','PS   ':'Political Science',
+               'NUR  ':'Pre-Professional Nursing Prog', 'PSY  ':'Psychology', 'PBH  ':'Public Health','RE   ':'Religion','SCH  ':'Scholars Program',
+               'SW   ':'Social Work','SO   ':'Sociology','SP   ':'Spanish','TH   ':'Theatre','VE   ':'Venture Ed','WW   ':'Wartburg West','WS   ':"Womens Studies"} # Automate to add rest to Dictionary
+
+Terms = {'May':'May Term', 'Summer':'Summer Session', 'Winter':'Winter Term', 'Fall':'Fall Term'} #Maybe Automate to Provide Year Options Instead of All?
+
+Times = {'all':'Show all', 'od':'Other Evening', 'oe':'Other Evening', '7:45AM/MWF':'7:45AM MWF', '9:00AM/MWF':'9:00AM MWF', '10:45AM/MWF':'10:45AM MWF',
+         '12:00PM/MWF':'12:00PM MWF', '1:15PM/MWF':'1:15PM MWF', '2:30PM/MWF':'2:30PM MWF', '3:50PM/MWF':'3:50PM MWF', '7:45AM/THX':'7:45AM TH',
+          '7:45AM/THX':'7:45AM TH', '9:35AM/THX':'9:35AM TH','11:30AM/THX':'11:30AM TH', '1:00PM/THX':'1:00PM TH', '2:50PM/THX':'2:50PM TH', '3:50PM/THX':'3:50PM TH'}
+
+ED = {'all':'Show all EE courses', 'CP':'CP - Capstone', 'FL':'FL- Foreign Language', 'FR':'FR - Faith & Reflection',
+      'HF':'HF - Humanities/Fine Arts Interconnected','MR':'MR - Mathematical Reasoning','NS':'NS - Natural Science Interconnected',
+      'SR':'SR - Scientific Reasoning','SS':'SS - Social Science Interconnected'}
+
 CD = {'none':'Not selected','C':'C - Cultural Immersion', 'D': 'D - Diversity Across Curriculum Course'}
 WI = {'none':'Not selected', 'WI':'Writing Intensive'}
-PF = {'none':'Not selected', 'PF':'Pass/D/F basis', ''}
+PF = {'none':'Not selected', 'PF':'Pass/D/F basis'}
 Instructor = {'0':'Not Selected'}
 
 # Drop Down Options ### Department Drop down only displays the Department's full title. It passes the Dept. Codes behind the scenes.
