@@ -28,6 +28,31 @@ class search:    #uses helper functions to query and pull results
         self.pass_fail = False
         self.instructor = None
         self.course_open = None
+        #DropDownDictionaries
+        self.Departments = {'All':'None Selected','AC   ':'Accounting', 'ART  ':'Art','BI   ':'Biology','BA   ':'Business Administration','CH   ':'Chemistry', 'CS   ':'Computer Science',
+               'CCJ  ':'Criminology/Criminal Justice','EC   ':'Economics', 'ED   ':'Education', 'ES   ':'Engineering Science', 'EN   ':'English','EI   ':'English International Students',
+               'ENV  ':'Environmental Science', 'EXS  ':'Exercise Science', 'FL   ':'Foreign Language','FR   ':'French','SCI  ':'General Science',
+               'GER  ':'German','GM   ':'Global Multicultural','GR   ':'Greek','HE   ':'Health','HB   ':'Hebrew','HI   ':'History','IS   ':'Inquiry Studies',
+               'ID   ':'Interdisciplinary','COM  ':'Journalism and Communication','LS   ':'Liberal Studies','MA   ':'Mathematics', 'MU   ':'Music',
+               'NSC  ':'Neuroscience','PJ   ':'Peace and Justice Studies','PH   ':'Philiosophy','PE   ':'Physical Education','PHY  ':'Physics','PS   ':'Political Science',
+               'NUR  ':'Pre-Professional Nursing Prog', 'PSY  ':'Psychology', 'PBH  ':'Public Health','RE   ':'Religion','SCH  ':'Scholars Program',
+               'SW   ':'Social Work','SO   ':'Sociology','SP   ':'Spanish','TH   ':'Theatre','VE   ':'Venture Ed','WW   ':'Wartburg West','WS   ':"Womens Studies"} # Automate to add rest to Dictionary
+
+        self.Terms = ['May Term', 'Summer Session', 'Winter Term', 'Fall Term'] #Maybe Automate to Provide Year Options Instead of All?
+
+        self.Times = {'all':'Show all', 'od':'Other Evening', 'oe':'Other Evening', '7:45AM/MWF':'7:45AM MWF', '9:00AM/MWF':'9:00AM MWF', '10:45AM/MWF':'10:45AM MWF',
+                        '12:00PM/MWF':'12:00PM MWF', '1:15PM/MWF':'1:15PM MWF', '2:30PM/MWF':'2:30PM MWF', '3:50PM/MWF':'3:50PM MWF', '7:45AM/THX':'7:45AM TH',
+                        '7:45AM/THX':'7:45AM TH', '9:35AM/THX':'9:35AM TH','11:30AM/THX':'11:30AM TH', '1:00PM/THX':'1:00PM TH', '2:50PM/THX':'2:50PM TH', '3:50PM/THX':'3:50PM TH'}
+
+        self.ED = {'all':'Show all EE courses', 'CP':'CP - Capstone', 'FL':'FL- Foreign Language', 'FR':'FR - Faith & Reflection',
+                    'HF':'HF - Humanities/Fine Arts Interconnected','MR':'MR - Mathematical Reasoning','NS':'NS - Natural Science Interconnected',
+                    'SR':'SR - Scientific Reasoning','SS':'SS - Social Science Interconnected'}
+
+        self.CD = {'none':'Not selected','C':'C - Cultural Immersion', 'D': 'D - Diversity Across Curriculum Course'}
+        self.WI = {'none':'Not selected', 'WI':'Writing Intensive'}
+        self.PF = {'none':'Not selected', 'PF':'Pass/D/F basis'}
+        self.Instructor = {'0':'Not Selected'}
+
        
     def by_keyword(self,key):
         #inputs user keyword into course finder
@@ -37,20 +62,29 @@ class search:    #uses helper functions to query and pull results
     def get_deptartments(self):
         #pulls current list of departments
         #and their corresponding codes from winnet
-        select.form(selector = 'ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department')
-        print(get_current_form())
-
+        #select.form(selector = 'ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department')
+        print('Possible Departments')
+        print('_____________________')
+        for key,value in self.Departments.items():
+            print(value)
+            
     def by_department(self,department):
         #selects department for course finder
-        dept = department
-        self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept)
+        dept = [k for k,v in self.Departments.items() if v.casefold() == department.casefold()]
+        self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept[0])
 
-    #def get_terms():
+    def get_terms(self):    
         #pulls list of current available terms to query
         #pull each option, append to list
-        
-    def by_term(self,term):
+        print('Term Terminology')
+        print('_____________________')
+        for term in self.Terms:
+            print(term)
+
+    def by_term(self,year,semester):
         #selects term from course finder
+        term = str(year)+' '+semester
+        print(term)
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
 
     #def get_times():
