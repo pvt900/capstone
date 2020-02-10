@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup as soup
 #    option = valuetext[1] + ' ' + item.get_text()
 #    print(option)
 
-
 class search:    #uses helper functions to query and pull results
 
     def __init__(self):
@@ -53,7 +52,6 @@ class search:    #uses helper functions to query and pull results
     def by_term(self,term):
         #selects term from course finder
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
-
 
     #def get_times():
         #pulls list of class meeting times
@@ -117,11 +115,6 @@ class search:    #uses helper functions to query and pull results
     def display_browser(self):
         #Displays self.browser Windows of Current Page
         self.browser.launch_browser()
-    
-    def chunk(self,l, n): #class that partitions our lists neatly
-        print("chunking...")
-        for i in range(0, len(l), n):
-            yield l[i:i + n]
 
     def save_file(self):
         table_of_data = self.browser.get_current_page().find('table')
