@@ -34,9 +34,10 @@ Searchform.set('ctl00$ContentPlaceHolder1$FormView1$CheckBox_OpenCourses', False
 Searchform.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', '0')# 0 is for None Selected otherwise it is a string of numbers (Instructor ID?)
 
 
-for i in range(len(value_list)+1):
+for i in range(len(value_list)):
     print(value_list[i],':',item_list[i])
-
+    if value_list[i].isdigit():
+        print('id found')
 
 #Submits Page, Grabs results and then launches a browser for test purposes.
 #browser.submit_selected()# Submits Form. Retrieves Results.

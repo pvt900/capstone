@@ -7,13 +7,13 @@ class search:    #uses helper functions to query and pull results
 
     def __init__(self):
         '''
-        Initializes Variables for use within the Search class
+        Initializes Variables & StatefulBrowser for use within the Search class
         '''
         #Sets Statefulself.browser Object to winnet then it it grabs form
         self.browser = mechanicalsoup.StatefulBrowser()
         self.browser.open("http://winnet.wartburg.edu/coursefinder/")
         self.page = self.browser.select_form()
-        
+        self.option_list = self.browser.get_current_page().findAll('option')
         #Form Variables
         self.keyword = None
         self.dept = None
@@ -90,37 +90,37 @@ class search:    #uses helper functions to query and pull results
         term = str(year)+' '+semester
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
 
-    #def get_times():
-        #pulls list of class meeting times
-        #pull each option, append to list
-        
+    def get_times():
+        '''
+        Returns array of available class times
+        '''
+        print('unfinished')
     def by_time(self,time):
         '''
         Takes time as parameter and passes the proper form value to search form
         '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_MeetingTime', time)
 
-    #def get_ee_reqs(self):
-        #pulls list of essential es class types
-        #pull each option, append to list
-
+    def get_ee(self):
+        '''
+        Returns array of possible essential ed requirements
+        '''
+        print('unfinished')
     def by_ee(self,ee):
         '''
-        Takes ee as essential ed variable and passes to form        
+        Takes ee as essential ed variable and passes to form
         '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', ee)
-
-   def get_culdiv(self):
+    def get_culdiv(self):
         '''
-        Retrieves Cultural Diversity Variables for form search
+        Returns list of Cult-Diversity Options
         '''
-    
         print('Cultural Diversity Options')
         print('_____________________')
         for key,value in self.CD.items():
             print(value)
-            
     def is_culdiv(self,option):
+        
         '''
         Takes option as a parameter and passes it to form
         option is the case-sensitive variables from get_culdiv()
@@ -148,19 +148,35 @@ class search:    #uses helper functions to query and pull results
         elif pf == False:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_PassFail','none')
 
-    #def get_instructors():
-        #gets list of all current instructors
-        #pull each option, append to list
+    def get_instructors(self):
+        '''
+        Returns a list of Instructor names
+        Names are case-sensitive
+        '''
+        for item in self.option_list:
+            value = str(item).split('"')
 
-    def by_instructor(self,id_number):
-        #selects instructor in dropdown menue
-        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', id_number)
+            if value[1].isdigit():
+                self.Instructor[value[1]] = item.get_text()
+        print('Case Sensitive Instructor List')
+        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+        for key,value in self.Instructor.items():
+            print(value)
+        #Get Instructors from Historical data How can we do thatdatetime A combination of a date and a time. Attributes: ()
+    def by_instructor(self,id_num):
+        '''
+        Takes name as parameter (Instructor's Name) and examines dictionary
+        of ID numbers to pass their ID Num to the form.
+        '''
+        #transform name to id_num
+        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', id_num)
 
     def couse_open(self, option):
-       '''
-       Takes option as a parameter
-       parameter is True or False and passes that to a checkbock in form
-       '''
+        
+        '''
+        Takes option as a parameter
+        parameter is True or False and passes that to a checkbock in form
+        '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$CheckBox_OpenCourses', option)
     def search_form(self):
         '''
