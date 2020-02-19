@@ -59,11 +59,12 @@ class search:    #uses helper functions to query and pull results
         '''
         Pulls current lists of departments for Department drop down
         '''
-        print('Possible Departments')
-        print('_____________________')
+        departs = []
+        #print('Possible Departments')
+        #print('_____________________')
         for key,value in self.Departments.items():
-            print(value)
-            
+            departs.append(value)
+        return departs   
     def by_department(self,department):
         '''
         Takes department as a parameter and passes corresponding department code to form
@@ -75,11 +76,12 @@ class search:    #uses helper functions to query and pull results
         '''
         Pulls list of current terms, terms are case-sensitive
         '''
-        print('Term Terminology')
-        print('_____________________')
+        term_list = []
+        #print('Term Terminology')
+        #print('_____________________')
         for term in self.Terms:
-            print(term)
-
+            term_list.append(term)
+        return term_list
     def by_term(self,year,semester):
         '''
         Takes year and semester as parameters
@@ -90,27 +92,37 @@ class search:    #uses helper functions to query and pull results
         term = str(year)+' '+semester
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
 
-    def get_times():
+    def get_times(self):
         '''
         Returns array of available class times
         '''
-        print('unfinished')
-    def by_time(self,time):
+        times = []
+        for key,value in self.Times.items():
+                times.append(value)
+        return times 
+    def by_time(self,period):
         '''
         Takes time as parameter and passes the proper form value to search form
         '''
-        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_MeetingTime', time)
+        for k,v in self.Times.items():
+            if period in v:
+                self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_MeetingTime', k)
 
-    def get_ee(self):
+    def get_ed(self):
         '''
         Returns array of possible essential ed requirements
         '''
-        print('unfinished')
-    def by_ee(self,ee):
+        eds = []
+        for key,value in self.ED.items():
+                eds.append(value)
+        return eds
+    def by_ed(self,ed):
         '''
         Takes ee as essential ed variable and passes to form
         '''
-        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', ee)
+        for k,v in self.Times.items():
+            if ed in v:
+                self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', k)
     def get_culdiv(self):
         '''
         Returns list of Cult-Diversity Options
@@ -158,17 +170,23 @@ class search:    #uses helper functions to query and pull results
 
             if value[1].isdigit():
                 self.Instructor[value[1]] = item.get_text()
-        print('Case Sensitive Instructor List')
-        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+                
+        proflist = []
+        #print('Case Sensitive Instructor List')
+        #print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         for key,value in self.Instructor.items():
-            print(value)
+            proflist.append(value)
+        return proflist
         #Get Instructors from Historical data How can we do thatdatetime A combination of a date and a time. Attributes: ()
-    def by_instructor(self,id_num):
+    def by_instructor(self, name):
         '''
         Takes name as parameter (Instructor's Name) and examines dictionary
         of ID numbers to pass their ID Num to the form.
         '''
         #transform name to id_num
+        for k,v in self.Instructor.items():
+            if name in v:
+                k = id_num
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', id_num)
 
     def couse_open(self, option):
