@@ -227,7 +227,7 @@ class search:    #uses helper functions to query and pull results
 
     def save_file(self):
         '''
-        Saves the Results to a .csv file
+        Saves the Results of the search to a .csv file
         '''
         table_of_data = self.browser.get_current_page().find('table')
         data = table_of_data.get_text().split('\n')
