@@ -49,7 +49,7 @@ class search:    #uses helper functions to query and pull results
         self.Instructor = {'0':'Not Selected'}
 
        
-    def by_keyword(self,key):
+    def set_keyword(self,key):
         '''
         Takes parameter to be passed into the Course Finder Keyword Search
         '''
@@ -65,7 +65,7 @@ class search:    #uses helper functions to query and pull results
         for key,value in self.Departments.items():
             departs.append(value)
         return departs   
-    def by_department(self,department):
+    def set_department(self,department):
         '''
         Takes department as a parameter and passes corresponding department code to form
         '''
@@ -79,10 +79,8 @@ class search:    #uses helper functions to query and pull results
         term_list = []
         #print('Term Terminology')
         #print('_____________________')
-        for term in self.Terms:
-            term_list.append(term)
-        return term_list
-    def by_term(self,year,semester):
+        return self.Terms
+    def set_term(self,year,semester):
         '''
         Takes year and semester as parameters
         year is the school year
@@ -100,7 +98,7 @@ class search:    #uses helper functions to query and pull results
         for key,value in self.Times.items():
                 times.append(value)
         return times 
-    def by_time(self,period):
+    def set_time(self,period):
         '''
         Takes time as parameter and passes the proper form value to search form
         '''
@@ -116,22 +114,20 @@ class search:    #uses helper functions to query and pull results
         for key,value in self.ED.items():
                 eds.append(value)
         return eds
-    def by_ed(self,ed):
+    def set_ed(self,ed):
         '''
         Takes ee as essential ed variable and passes to form
         '''
         for k,v in self.Times.items():
             if ed in v:
                 self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_EssentialEd', k)
-    def get_culdiv(self):
+    def get_cd(self):
         '''
         Returns list of Cult-Diversity Options
         '''
-        print('Cultural Diversity Options')
-        print('_____________________')
         for key,value in self.CD.items():
             print(value)
-    def is_culdiv(self,option):
+    def set_cd(self,option):
         
         '''
         Takes option as a parameter and passes it to form
@@ -140,7 +136,7 @@ class search:    #uses helper functions to query and pull results
         cdo = [k for k,v in self.CD.items() if v.casefold() == option.casefold()]
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_CulturalDiversity', cdo[0])
 
-    def is_writing(self, wi):
+    def set_wi(self, wi):
         '''
         Takes wi as a parameter and passes it to form
         wi is either True or False
@@ -150,7 +146,7 @@ class search:    #uses helper functions to query and pull results
         elif wi == False:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'none')
 
-    def is_pass_fail(self,pf):
+    def is_pf(self,pf):
         '''
         Takes pf as parameter passes to form
         pf is either TRUE or FALSE
@@ -167,18 +163,14 @@ class search:    #uses helper functions to query and pull results
         '''
         for item in self.option_list:
             value = str(item).split('"')
-
             if value[1].isdigit():
                 self.Instructor[value[1]] = item.get_text()
-                
         proflist = []
-        #print('Case Sensitive Instructor List')
-        #print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         for key,value in self.Instructor.items():
             proflist.append(value)
         return proflist
         #Get Instructors from Historical data How can we do thatdatetime A combination of a date and a time. Attributes: ()
-    def by_instructor(self, name):
+    def set_instructor(self, name):
         '''
         Takes name as parameter (Instructor's Name) and examines dictionary
         of ID numbers to pass their ID Num to the form.
@@ -186,8 +178,7 @@ class search:    #uses helper functions to query and pull results
         #transform name to id_num
         for k,v in self.Instructor.items():
             if name in v:
-                k = id_num
-        self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', id_num)
+                self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_Instructor', k)
 
     def couse_open(self, option):
         
@@ -200,9 +191,34 @@ class search:    #uses helper functions to query and pull results
         '''
         selects and submits the form's search button
         '''
+        course_list = []
         self.page.choose_submit('ctl00$ContentPlaceHolder1$FormView1$Button_FindNow')
         self.browser.submit_selected()
-        
+        table_of_data = self.browser.get_current_page().find('table')
+        #print(table_of_data, '\n') HTML
+        #print(table_of_data.get_text(), '\n') Text of HTML rendered in format
+        data = table_of_data.get_text().replace('\n\n','\n').split('\n')
+        print(data)
+        #print(data[3].split('\n'), '\n') CS120 in 1 buggy list
+        #exp = data[3].split(',')
+        #print(exp, '\n')
+        #print(tuple(data))
+        #test = exp[0].split('\n')
+        #test2 = exp[1].split(' ')
+        #print(test)
+        #print(test2)
+        #for elem in data:
+        #
+        #     print(elem)
+ 
+        #Notes: Pulled Data data[0-3], 0,1,3 are all blank 2 is the header info
+        #Notes: After than its every five with ['Codes','Details','CourseID','CourseTitle','Professor LastNameFInit Time ClassSize Location Term Codes']
+        #for course in data:
+            #print(course)
+        #with open('test_data.txt', 'w') as handler: #output of scraped data
+        #    print("writing file...")
+        #    for listitem in data:
+        #        handler.write('%s\n' % listitem) 
     def display_browser(self):
         '''
         Displays cached copy of webpage
