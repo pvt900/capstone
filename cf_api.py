@@ -197,7 +197,7 @@ class search:    #uses helper functions to query and pull results
         table_of_data = self.browser.get_current_page().find('table')
         #print(table_of_data, '\n') HTML
         #print(table_of_data.get_text(), '\n') Text of HTML rendered in format
-        data = table_of_data.get_text().replace('\n\n','\n').split('\n')
+        data = table_of_data.get_text('td').replace('\n', '').replace('\n\n', '').replace('td', '|')
         print(data)
         #print(data[3].split('\n'), '\n') CS120 in 1 buggy list
         #exp = data[3].split(',')
