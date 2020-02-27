@@ -192,13 +192,37 @@ class search:    #uses helper functions to query and pull results
         selects and submits the form's search button
         '''
         course_list = []
+        course = []
+        counter = 0
         self.page.choose_submit('ctl00$ContentPlaceHolder1$FormView1$Button_FindNow')
         self.browser.submit_selected()
         table_of_data = self.browser.get_current_page().find('table')
         #print(table_of_data, '\n') HTML
         #print(table_of_data.get_text(), '\n') Text of HTML rendered in format
-        data = table_of_data.get_text('td').replace('\n', '').replace('\n\n', '').replace('td', '|')
-        print(data)
+        data = table_of_data.get_text('td').replace('\n', '').replace('td', '|')
+        #print(data)
+        data2 = data.split('|')
+        #print(data2)
+        for index in data2[18:]:
+            if counter < 22:
+                #print(counter, index)
+                course.append(index)
+                #print(course)
+                counter +=1
+                #print('course', course)
+            else:
+                #print('else')
+                #print('before',course)
+                #print('else', course)
+                course_list.append(course)
+                course = []
+                counter = 0
+                #print('after',course)
+                course.append(index)
+        print(data2)
+        print('--------------------')
+        print(course_list[1])
+        #print(course_list[0])
         #print(data[3].split('\n'), '\n') CS120 in 1 buggy list
         #exp = data[3].split(',')
         #print(exp, '\n')
