@@ -4,11 +4,11 @@ from cf_api import search as cfapi
 def main():
     test = cfapi()
     #test.get_deptartments()
-    test.set_department('Computer Science')
-    test.get_instructors()
+    #test.set_department('Computer Science')
+    #test.get_instructors()
     #test.set_instructor('Zelle')
     #test.get_terms()
-    test.set_term(2018,'Fall Term')
+    #test.set_term(2018,'Fall Term')
     test.search_form()
     #test.display_browser()
     

@@ -204,13 +204,14 @@ class search:    #uses helper functions to query and pull results
         data2 = data.split('|')
         #print(data2)
         for index in data2[18:]:
-            if counter < 22:
+            if counter < 21:
                 #print(counter, index)
                 course.append(index)
                 #print(course)
                 counter +=1
                 #print('course', course)
             else:
+                course.append(index)
                 #print('else')
                 #print('before',course)
                 #print('else', course)
@@ -218,10 +219,13 @@ class search:    #uses helper functions to query and pull results
                 course = []
                 counter = 0
                 #print('after',course)
-                course.append(index)
-        print(data2)
+                
+        #print(data2)
         print('--------------------')
-        print(course_list[1])
+        for item in course_list:
+            if len(item) > 22:
+                print(item)
+            #print('\n',item, len(item))
         #print(course_list[0])
         #print(data[3].split('\n'), '\n') CS120 in 1 buggy list
         #exp = data[3].split(',')
