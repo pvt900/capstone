@@ -68,8 +68,18 @@ class search:
         dept = [k for k,v in self.Departments.items() if v.casefold() == department.casefold()]
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept[0])
     def get_years(self):
+        '''
+        Compares current date to end of May Term. 
+        If date is before june 1st, it will return an array of the past 2 years and future year
+        if date is past, it will return last year and future 2 years. (Used for Determining Valid Years for Terms)
+        '''
         dt = datetime.now()
-        strg = '{:%m %d, %Y}'.format(dt)
+        current_year = int('{:%Y}'.format(dt))
+        end_of_term = datetime(current_year, 6, 1)
+        if dt < end_of_term:
+            return [current_year-2, current_year-1, current_year, current_year+1]
+        else:
+            return [current_year-1, current_year, current_year+1, current_year+2]
     def get_terms(self):    
         '''
         Returns array of current terms.
