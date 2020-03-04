@@ -3,12 +3,17 @@ from cf_api import search as cfapi
 
 def main():
     test = cfapi()
-    #test.get_deptartments()
-    #test.set_department('Computer Science')
-    #test.get_instructors()
-    #test.set_instructor('Zelle')
-    #test.get_terms()
-    #test.set_term(2018,'Fall Term')
+    test.set_keyword('This is useless')
+    departs = test.get_deptartments()
+    for elem in departs:
+        if elem == 'Computer Science':
+            test.set_department(elem)
+    instructors = test.get_instructors()
+    for staff in instructors:
+        if staff == 'Zelle':
+            test.set_instructor(staff)
+    terms = test.get_terms()
+    test.set_term(2018,'Fall Term')
     test.search_form()
     #test.display_browser()
     
