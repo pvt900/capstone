@@ -67,6 +67,7 @@ class search:
         '''
         dept = [k for k,v in self.Departments.items() if v.casefold() == department.casefold()]
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Department", dept[0])
+        
     def get_years(self):
         '''
         Compares current date to end of May Term. 
@@ -80,6 +81,7 @@ class search:
             return [current_year-2, current_year-1, current_year, current_year+1]
         else:
             return [current_year-1, current_year, current_year+1, current_year+2]
+    
     def get_terms(self):    
         '''
         Returns array of current terms.
