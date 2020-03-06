@@ -26,6 +26,7 @@ class search:
         self.instructor = None
         self.course_open = None
         #DropDownDictionaries
+        self.course_list = []
         self.Departments = {'All':'None Selected','AC   ':'Accounting', 'ART  ':'Art','BI   ':'Biology','BA   ':'Business Administration','CH   ':'Chemistry', 'CS   ':'Computer Science',
                'CCJ  ':'Criminology/Criminal Justice','EC   ':'Economics', 'ED   ':'Education', 'ES   ':'Engineering Science', 'EN   ':'English','EI   ':'English International Students',
                'ENV  ':'Environmental Science', 'EXS  ':'Exercise Science', 'FL   ':'Foreign Language','FR   ':'French','SCI  ':'General Science',
@@ -203,7 +204,7 @@ class search:
         extracts the courses found in the results.
         Returns the courses in the form of a Tuple containing Tuples.
         '''
-        course_list = []
+        self.course_list = []
         course = []
         counter = 0
         self.page.choose_submit('ctl00$ContentPlaceHolder1$FormView1$Button_FindNow')
@@ -220,10 +221,10 @@ class search:
                     counter +=1
             else:
                 course.append(index)
-                course_list.append(tuple(course))
+                self.course_list.append(tuple(course))
                 course = []
                 counter = 0
-        return tuple(course_list)
+        return tuple(self.course_list)
 
     def display_browser(self):
         '''
@@ -235,9 +236,10 @@ class search:
         '''
         Saves the Results of the search to a .csv file
         '''
-        table_of_data = self.browser.get_current_page().find('table')
-        data = table_of_data.get_text().split('\n')
+        
         with open('test_data.txt', 'w') as handler: #output of scraped data
             print("writing file...")
-            for listitem in data:
-                handler.write('%s\n' % listitem)           
+            
+            for course in self.course_list:
+                k = '|'.join(course)
+                handler.write(k+'\n')           
