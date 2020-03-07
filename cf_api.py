@@ -241,5 +241,4 @@ class search:
             print("writing file...")
             
             for course in self.course_list:
-                k = '|'.join(course)
-                handler.write(k+'\n')           
+                handler.write('%s\n' % list(course))           
