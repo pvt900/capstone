@@ -217,9 +217,13 @@ class search:
                 if index == '':
                     continue
                 else:
+                    if index == '\xa0' or index == ' ':
+                        index = 'Null'
                     course.append(index)
                     counter +=1
             else:
+                if index == '\xa0' or index == ' ':
+                    index = 'Null'
                 course.append(index)
                 self.course_list.append(tuple(course))
                 course = []
