@@ -53,7 +53,7 @@ class search:
         '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$TextBox_keyword', key)
 
-    def get_deptartments(self):
+    def get_departments(self):
         '''
         Returns current lists of departments in an array
         '''
@@ -231,7 +231,7 @@ class search:
         Displays cached copy of webpage
         '''
         self.browser.launch_browser()
-
+    
     def save_file(self):
         '''
         Saves the Results of the search to a .csv file
