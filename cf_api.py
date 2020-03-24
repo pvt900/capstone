@@ -27,6 +27,7 @@ class search:
         self.course_open = None
         #DropDownDictionaries
         self.course_list = []
+        self.data = []
         self.Departments = {'All':'None Selected','AC   ':'Accounting', 'ART  ':'Art','BI   ':'Biology','BA   ':'Business Administration','CH   ':'Chemistry', 'CS   ':'Computer Science',
                'CCJ  ':'Criminology/Criminal Justice','EC   ':'Economics', 'ED   ':'Education', 'ES   ':'Engineering Science', 'EN   ':'English','EI   ':'English International Students',
                'ENV  ':'Environmental Science', 'EXS  ':'Exercise Science', 'FL   ':'Foreign Language','FR   ':'French','SCI  ':'General Science',
@@ -228,7 +229,9 @@ class search:
                 self.course_list.append(tuple(course))
                 course = []
                 counter = 0
-        return tuple(self.course_list)
+        for item in self.course_list:
+           self.data.append([item[5],item[6],item[7],item[8],item[9],item[10],item[11],item[12],item[14]])
+        return self.data
 
     def display_browser(self):
         '''
