@@ -3,7 +3,7 @@
 import mechanicalsoup
 from bs4 import BeautifulSoup as soup
 from datetime import datetime 
-class search:
+class CourseSearch:
     def __init__(self):
         '''
         Initializes Variables & StatefulBrowser for use within the Search class
@@ -249,3 +249,47 @@ class search:
             
             for course in self.course_list:
                 handler.write('%s\n' % list(course))           
+
+class CourseData():
+    def __init__(self, CourseList):
+        self.Courses = CourseList
+    def Instructor(self):
+        instructors = []
+        for course in self.Course:
+            instructors.append(course[2])
+        return (instructors)
+    def Id(self):
+        ids = []
+        for course in self.Course:
+            ids.append(course[0])
+        return (ids)        
+    def Title(self):
+        titles = []
+        for course in self.Course:
+            titles.append(course[1])
+        return (titles)
+    def Time(self):
+        time = []
+        for course in self.Course:
+            time.append(course[3])
+        return (time)
+    def Enrollment(self):
+        classsize = []
+        for course in self.Course:
+            classsize.append(course[4])
+        return (classsize)
+    def Location(self):
+        room = []
+        for course in self.Course:
+            room.append(course[5])
+        return (room)
+    def Year(self):
+        year = {}
+        for course in self.Course:
+            year[course[6]]=course[7]
+        return (year)
+    def Credits(self):
+        credits = []
+        for course in self.Course:
+            credits.append(course[8])
+        return (credits)
