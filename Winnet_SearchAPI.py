@@ -27,7 +27,6 @@ class CourseSearch:
         self.course_open = None
         #DropDownDictionaries
         self.course_list = []
-        self.changes []
         self.data = []
         self.Departments = {'All':'None Selected','AC   ':'Accounting', 'ART  ':'Art','BI   ':'Biology','BA   ':'Business Administration','CH   ':'Chemistry', 'CS   ':'Computer Science',
                'CCJ  ':'Criminology/Criminal Justice','EC   ':'Economics', 'ED   ':'Education', 'ES   ':'Engineering Science', 'EN   ':'English','EI   ':'English International Students',
@@ -48,15 +47,7 @@ class CourseSearch:
         self.WI = {'none':'Not selected', 'WI':'Writing Intensive'}
         self.PF = {'none':'Not selected', 'PF':'Pass/D/F basis'}
         self.Instructor = {'0':'Not Selected'}
-    def update(self):
-        with open('Path','r') as file:
-            data = file.readlines()
-        winnet = self.search_form()
-        for course in data:
-            if course in winnet:
-                self.changes.append(course)
-            
-                
+
     def set_keyword(self,key):
         '''
         Takes a String to be passed into the Keyword Search
