@@ -49,18 +49,32 @@ class CourseSearch:
         self.PF = {'none':'Not selected', 'PF':'Pass/D/F basis'}
         self.Instructor = {'0':'Not Selected'}
     def update(self):
-        with open('Path','r') as file:
+        '''
+        Opens file containing historic data
+        Takes the Search form results and indexes them into a hashtable
+        compares the courses in winnet to the historic courses and appends
+        courses that new and overwrite courses that are pre-existing.
+        '''
+        changelog = {}
+        with open('course_history.csv','r') as file:
             data = file.readlines()
+            
         winnet = self.search_form()
         indexed_winnet = {}
+        
         for course in winnet:
             key = (course[0],course[6],course[7])
             indexed_winnet[key] = course
+            
         for n,line in enumerate(data):
             key = (line[0],line[6],line[7])
             if key in indexed_winnet.keys():
                 data[n] = indexed_winnet.get(key)
-        with open('Path', 'w') as file:
+                changelog[key] = (str(indexed_winnet.get(key) + 'Overwrite'))
+
+                
+    
+        with open('course_history.csv', 'w') as file:
             pass
     def set_keyword(self,key):
         '''
