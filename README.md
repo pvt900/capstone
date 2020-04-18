@@ -1,4 +1,4 @@
-# Welcome to the Wartburg College Course Finder API Githib
+# Welcome to the Wartburg College Course Finder API Github
 #### This project was done in accordance with the CS 460 class at Wartbrug College and supervised by Dr. Zelle
 #### Main contributors are Robert Farmer and Will Goettl with assistance from Justin Schoppe and Dr. Zelle
 
