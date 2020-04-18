@@ -1,0 +1,99 @@
+AC   429  01   "CPA Review"Sommermeyer, E"MTWHF 9:00AM-12:00PM"24/6/0"Null"2019-20"MA"1.00
+ART  131  01   "Printmaking I"Fedeler, B"MTWHF 8:30AM-12:00PM"16/15/0"FAC  114D "2019-20"MA"1.00
+ART  208  01   "Photography I"Payne, T"MTWHF 9:00AM-12:00PM"20/20/0"FAC  114C "2019-20"MA"1.00
+ART  231  01   "Printmaking II"Fedeler, B"MTWHF 8:30AM-12:00PM"3/4/0"FAC  114D "2019-20"MA"1.00
+BA   345  01   "Principles of Management"Bernard, A"MTWHF 9:00AM-12:00PM"32/16/0"Null"2019-20"MA"1.00
+BA   346  01   "Human Resource Management"Meyeraan, S"MTWHF 9:00AM-12:00PM"35/23/0"Null"2019-20"MA"1.00
+BA   353  01   "Principles of Marketing"Gonnerman, M"MTWHF 9:00AM-12:00PM"32/29/0"Null"2019-20"MA"1.00
+BA   433  01   "Trends in Marketing"Folkers, K"MTWHF 9:00AM-12:00PM"25/15/0"Null"2019-20"MA"1.00
+BI   120  01   "Science of Water"Bechtel, M"MTWHF 8:30AM-12:00PM"24/24/3"Null"2019-20"MA"1.00
+BI   120  01   "Science of Water Lab"Bechtel, M"Null"24/24/3"Null"2019-20"MA"0.00
+BI   120  02   "Science of Water"Bechtel, M"MTWHF 12:30PM-4:00PM"24/24/2"Null"2019-20"MA"1.00
+BI   120  02   "Science of Water Lab"Bechtel, M"Null"24/24/2"Null"2019-20"MA"0.00
+BI   325  01   "Behavioral Ecology"Larimer Bousquet, S"MTWHF 9:00AM-12:30PM"18/17/0"Null"2019-20"MA"1.00
+BI   325  01   "Behavioral Ecology Lab"Larimer Bousquet, S"Null"18/17/0"Null"2019-20"MA"0.00
+BI   405  01   "Immunology"McClung, J"MTWHF 9:00AM-12:00PM"20/29/0"Null"2019-20"MA"1.00
+CH   340  01   "Analytical & Physical Measurements"Zart, M"MTWHF 10:00AM-11:05AM"24/0/0"Null"2019-20"MA"1.00
+CH   340  01   "Analyt & Physical Measurements Lab"Zart, M" TWH  1:00PM-5:30PM"24/0/0"Null"2019-20"MA"0.00
+CH   395  01   "Special Topics: Recent/Classic Episodes in Sci"Zart, M"Null"30/8/0"Null"2019-20"MA"1.00
+COM  112  01   "Oral Communication"Ohrt, P"MTWHF 8:00AM-9:20AM"22/21/0"Null"2019-20"MA"0.50
+COM  112  02   "Oral Communication"Ohrt, P"MTWHF 9:30AM-10:50AM"22/20/0"Null"2019-20"MA"0.50
+COM  112  03   "Oral Communication"Martin, J"MTWHF 11:00AM-12:20PM"22/21/0"Null"2019-20"MA"0.50
+COM  112  04   "Oral Communication"Martin, J"MTWHF 12:30PM-1:50PM"22/21/0"Null"2019-20"MA"0.50
+COM  125  01   "TV Practicum"Johnson, R"Null"99/1/0"Null"2019-20"MA"0.25
+COM  126  01   "Radio Practicum"Ohrt, P"Null"99/1/0"Null"2019-20"MA"0.25
+COM  127  01   "Organizational & PR Practicum"Pier, P"Null"99/1/0"Null"2019-20"MA"0.25
+COM  128  01   "Print Practicum"Martin, J"Null"99/0/0"Null"2019-20"MA"0.25
+COM  420  01   "Digital Production II"Johnson, R"MTWHF 1:00PM-4:30PM"16/7/0"Null"2019-20"MA"1.00
+CS   120  01   "Intro to Computers and Programming"Zelle, J"MTWHF 8:30AM-10:00AM"34/37/0"Null"2019-20"MA"1.00
+CS   120  01   "Intro to Computers and Programming"Zelle, J"MTWHF 11:30AM-1:00PM"34/37/0"Null"2019-20"MA"1.00
+CS   249  01   "Computer Science Seminar: From NAND to Tetris"Letsche, T"MTWHF 8:30AM-10:00AM"34/20/0"Null"2019-20"MA"1.00
+CS   249  01   "Computer Science Seminar: From NAND to Tetris"Letsche, T"MTWHF 11:30AM-1:00PM"34/20/0"Null"2019-20"MA"1.00
+EC   118  01   "Principles of Microeconomics"Abdiah, S"MTWHF 9:00AM-12:00PM"45/9/0"Null"2019-20"MA"1.00
+ED   210  01   "Children's Literature"Jensen, R"MTWHF 9:00AM-12:00PM"25/19/0"Null"2019-20"MA"1.00
+ED   212  01   "Human Relations"Rod Szabo, M"MTWHF 9:00AM-12:00PM"30/30/1"Null"2019-20"MA"1.00
+ED   212  02   "Human Relations"Rod Szabo, M"MTWHF 1:00PM-4:00PM"30/29/2"Null"2019-20"MA"1.00
+ED   355  01   "EC: Family & Community Relations"Seward, J"MTWHF 7:00AM-10:00AM"15/5/0"Null"2019-20"MA"0.50
+ED   390  01   "Research in Reading"TeKippe, S"MTWHF 8:00AM-11:00AM"20/23/0"Null"2019-20"MA"1.00
+ED   481  01   "Early Childhood Practicum"Friedrich, B"Null"15/5/0"Null"2019-20"MA"0.50
+EN   155  01   "Introduction to Film"Clark, R"Null"30/8/0"Null"2019-20"MA"1.00
+EN   220  01   "Poetry Writing"Nolan, A"MTWHF 9:00AM-12:00PM"15/23/1"Null"2019-20"MA"1.00
+EN   295  01   "Special Topics: Baseball in Amer Lit/Culture"Lynch, S"MTWHF 9:00AM-12:00PM"25/25/0"Null"2019-20"MA"1.00
+EXS  375  01   "Exercise Testing and Prescription"Winter, C"MTWHF 9:00AM-12:30PM"24/6/0"Null"2019-20"MA"1.00
+EXS  375  01   "Exercise Testing/Prescription Lab"Winter, C"Null"24/6/0"Null"2019-20"MA"0.00
+GER  104  01   "Elementary German I"Losch, Y"MTWHF 1:00PM-4:00PM"25/24/5"Null"2019-20"MA"1.00
+HE   240  01   "Basic Nutrition"Chapman, R"MTWHF 12:45PM-2:05PM"25/14/0"Null"2019-20"MA"0.50
+HI   224  01   "Modern History & Culture of Mideast"Walther, D"MTWHF 8:45AM-11:45AM"35/18/0"Null"2019-20"MA"1.00
+HI   231  01   "Hollywood History"Barnhouse, L"MTWHF 9:00AM-12:00PM"25/15/0"Null"2019-20"MA"1.00
+ID   315  01   "Leadership Theories and Practices:Retrieving Freedom (RFI)"Waldstein, F"MTWHF 1:00PM-4:00PM"16/22/1"Null"2019-20"MA"1.00
+ID   315  03   "Leadership Theories and Practices"Moore, M"MTWHF 9:00AM-12:00PM"25/25/2"Null"2019-20"MA"1.00
+ID   345  01   "Food"Westen, E"MTWHF 9:00AM-12:00PM"45/38/0"Null"2019-20"MA"1.00
+IS   201  01   "Living in a Div World: Leadership Strategies & Styles"Pilcher, A"MTWHF 9:00AM-12:00PM"25/32/1"Null"2019-20"MA"1.00
+LS   115  01   "Exploring Elements of Leadership"Gleason, M"MTWHF 1:00PM-4:00PM"30/26/0"Null"2019-20"MA"1.00
+MA   107  01   "Finite Mathematics"Mahmoud, M"MTWHF 10:00AM-11:30AM"34/12/0"Null"2019-20"MA"1.00
+MA   107  01   "Finite Mathematics"Mahmoud, M"MTWHF 1:00PM-2:30PM"34/12/0"Null"2019-20"MA"1.00
+MA   214  01   "Statistical Methods"Birgen, B"MTWHF 8:30AM-10:00AM"34/30/7"Null"2019-20"MA"1.00
+MA   214  01   "Statistical Methods"Birgen, B"MTWHF 11:30AM-1:00PM"34/30/7"Null"2019-20"MA"1.00
+MA   214  02   "Statistical Methods"Becker, J"MTWHF 10:00AM-11:30AM"34/32/1"Null"2019-20"MA"1.00
+MA   214  02   "Statistical Methods"Becker, J"MTWHF 1:00PM-2:30PM"34/32/1"Null"2019-20"MA"1.00
+MA   307  01   "Mathematical Modeling"Allen, C"MTWHF 10:00AM-11:30AM"25/11/0"Null"2019-20"MA"1.00
+MA   307  01   "Mathematical Modeling"Allen, C"MTWHF 1:00PM-2:30PM"25/11/0"Null"2019-20"MA"1.00
+MU   170  02   "Applied Voice"Larson, J"Null"50/1/0"Null"2019-20"MA"0.25
+MU   409  01   "Cont Issues:Music Education "Muntefering, S"Null"20/1/0"Null"2019-20"MA"0.50
+PBH  255  01   "Applied Public Health Practice"TBA, T"Null"18/4/0"Null"2019-20"MA"1.00
+PBH  455  01   "Applied Public Health Research"Sheeler, L"Null"12/2/0"Null"2019-20"MA"1.00
+PE   100  01   "Lifetime Wellness"Keller, E"MTWHF 11:00AM-12:20PM"22/22/2"Null"2019-20"MA"0.50
+PE   100  02   "Lifetime Wellness"Dolly, A"MTWHF 12:30PM-1:50PM"22/18/0"Null"2019-20"MA"0.50
+PE   100  03   "Lifetime Wellness"Kaiser, J"MTWHF 8:00AM-9:20AM"22/22/0"Null"2019-20"MA"0.50
+PE   100  04   "Lifetime Wellness"Kaiser, J"MTWHF 9:30AM-10:50AM"22/20/0"Null"2019-20"MA"0.50
+PE   155  01   "Care & Prevention:Athletic Injuries"Callahan, R"MTWHF 9:00AM-12:00PM"25/22/0"Null"2019-20"MA"1.00
+PE   270  01   "Ou"oor Recreation"Dolly, A"MTWHF 9:00AM-12:00PM"25/14/0"Null"2019-20"Null
+View Details"PE   356  01   "Strength and Conditioning"Toohey, P"MTWHF 10:30AM-11:50AM"25/13/0"Null"2019-20"Null
+View Details"PH   206  01   "Ethics"Schenkewitz, K"MTWHF 9:00AM-12:00PM"25/23/0"Null"2019-20"Null
+View Details"PHY  120  01   "Science of Water"Bechtel, M"MTWHF 8:30AM-12:00PM"24/8/0"Null"2019-20"Null
+View Details"PHY  120  01   "Science of Water Lab"Bechtel, M"Null"24/8/0"Null"2019-20"Null
+View Details"PHY  120  02   "Science of Water"Bechtel, M"MTWHF 12:30PM-4:00PM"24/4/0"Null"2019-20"Null
+View Details"PHY  120  02   "Science of Water Lab"Bechtel, M"Null"24/4/0"Null"2019-20"Null
+View Details"PHY  150  01   "Science for Society"Bousquet, B"MTWHF 10:00AM-11:30AM"24/21/7"Null"2019-20"Null
+View Details"PHY  150  01   "Science for Society"Bousquet, B"MTWHF 1:00PM-2:30PM"24/21/7"Null"2019-20"Null
+View Details"PHY  170  01   "Astronomy"Figura, C"MTWHF 8:30AM-10:00AM"35/38/1"Null"2019-20"Null
+View Details"PHY  170  01   "Astronomy"Figura, C"MTWHF 11:30AM-1:00PM"35/38/1"Null"2019-20"Null
+View Details"PHY  170  01   "Astronomy Lab"Figura, C"Null"35/38/1"Null"2019-20"Null
+View Details"PS   290  01   "Environmental Politics"Billet, B"MTWHF 9:00AM-12:00PM"15/15/6"Null"2019-20"Null
+View Details"PSY  101  01   "Introduction to Psychology"Munir, S"MTWHF 9:00AM-12:00PM"40/31/0"Null"2019-20"Null
+View Details"PSY  224  01   "Abnormal Psychology"Reiher, T"MTWHF 9:00AM-12:00PM"30/30/5"Null"2019-20"Null
+View Details"PSY  240  01   "Social Psychology"Bane, C"MTWHF 9:00AM-12:00PM"30/39/1"Null"2019-20"Null
+View Details"RE   295  01   "Special Topics: World Religions and Film"Noh, M"MTWHF 1:00PM-4:00PM"30/26/0"Null"2019-20"Null
+View Details"RE   304  01   "Lutheran Heritage"Riswold, C"MTWHF 1:00PM-4:00PM"35/11/0"Null"2019-20"Null
+View Details"RE   313  01   "Image of God in Bible and Culture"Schedtler, J"Null"35/12/0"Null"2019-20"Null
+View Details"SCI  152  01   "Episodes in the History of Science"Black, D"Null"50/19/0"Null"2019-20"Null
+View Details"SCI  152  01   "Episodes in the History of Sci Lab"Black, D"Null"50/19/0"Null"2019-20"Null
+View Details"SO   101  01   "Introduction to Sociology"Sundblad, D"MTWHF 9:00AM-12:00PM"30/18/0"Null"2019-20"Null
+View Details"SO   225  01   "Race, Class and Gender"McQueen, J"Null"35/5/0"Null"2019-20"Null
+View Details"SO   240  01   "Social Psychology"Bane, C"MTWHF 9:00AM-12:00PM"30/6/0"Null"2019-20"Null
+View Details"SP   260  01   "Hispanic Culture I"Montgomery, Z"Null"25/16/0"Null"2019-20"Null
+View Details"SP   260  02   "Hispanic Culture I"Ramirez Martinez, M"Null"25/6/0"Null"2019-20"Null
+View Details"SP   261  01   "Intensive Conversation I"Montgomery, Z"MTWHF 8:30AM-12:30PM"25/16/0"Null"2019-20"Null
+View Details"SP   261  02   "Intensive Conversation I"Ramirez Martinez, M"Null"25/6/0"Null"2019-20"Null
+View Details"SW   181  01   "Beginning Field Experience"Haglund, J"Null"35/11/0"Null"2019-20"Null
+View Details"SW   213  01   "Working With Different Abilities"Faux, T"MTWHF 9:00AM-12:00PM"25/18/0"Null"2019-20"Null

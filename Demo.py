@@ -1,6 +1,5 @@
 from cf_api import CourseSearch as cfapi
 
-
 def main():
     test = cfapi()
     #test.set_keyword('This is useless')
@@ -22,15 +21,12 @@ def main():
     #test.course_open(True)
 
     a = test.search_form()
-    b= test.update_historic()
+    b = test.update_historic()
     
     #test.display_browser()
 
-    
+
 if __name__ == '__main__':
     main()
-
-    #Default to current year?
-    #Unify Winnet and Historical Data with Queries. Hide the differences 
-    #Testing Whats the Last Year in Historical and Current Year in Live Data. At such time next year is available do you want to update? compare to historical data and rollover for future
-    #Think over 
+#(ノಠ益ಠ)ノ彡┻━┻ (ಥ╭╮ಥ) ლ(ಠ益ಠლ) Yes ! <3
+# (•_•) ( •_•)>⌐■-■ (⌐■_■) <3
