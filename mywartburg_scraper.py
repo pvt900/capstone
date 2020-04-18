@@ -5,6 +5,9 @@ from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 import fileinput
 
+#Writen by Will Goettl
+#Thank you to Justin Schoppe for providing help and code framework
+
 a = []
 data = []
 j = 1
