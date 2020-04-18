@@ -71,10 +71,10 @@ class CourseSearch:
         cols = ['Course_ID','Year','Term']
         combined = pd.concat([historic,winnet])
         combined = combined.drop_duplicates(subset=cols, keep='last')
-        combined.set_index(['Course_ID','Year','Term'], inplace=True)
-        combined.to_csv(r'course_history.txt',header=['Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
-        winnet.to_csv(r'Changelog.txt',header=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
-        historic.to_csv(r'historic_legacy.txt',header=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
+        #combined.set_index(['Course_ID','Year','Term'], inplace=True)
+        combined.to_csv(r'course_history.txt',header=None,index=cols,sep='"',mode='w')
+        winnet.to_csv(r'Changelog.txt',header=None,index=None,sep='"',mode='w')
+        historic.to_csv(r'historic_legacy.txt',header=None,index=None,sep='"',mode='w')
         
         timestr = time.strftime("%Y-%m-%d")
         changelog = "Changelog"+timestr+".txt"
