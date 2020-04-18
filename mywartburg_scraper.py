@@ -37,25 +37,25 @@ if __name__ == '__main__':
     driver.get('https://my.wartburg.edu/ICS/Academics/Student.jnz?portlet=Registration&screen='
                'Advanced+Course+Search&screenType=next')
     select = Select(driver.find_element_by_xpath('//*[@id="pg0_V_ddlTerm"]'))
-    index = 0
+    index = 0 
+    #selects what term to begin in. Index 0 begins at the top of the dropdown menue "Term:" in the course finder. 
+    #Subsequently, index 1 would be the second, 2 the third, and so on
+    
     select.select_by_index(index)
     select = Select(driver.find_element_by_xpath('//*[@id="pg0_V_ddlTerm"]'))
     selected = select.all_selected_options[0].text.split()
 
     
-    while selected[:2] != ['2006', 'Winter']:
+    while selected[:2] != ['2006', 'Winter']:  
+        #fartest data goes back as of 4.2020. Edit to desired parameters. Can contain both year and term or just one element
         index += 1
         driver.find_element_by_xpath('//*[@id="pg0_V_btnSearch"]').click()
         
         
-        #//*[@id="pg0_V_dgCourses"]/tbody/tr[1]/td[3]
-        #//*[@id="pg0_V_dgCourses"]/tbody/tr[3]/td[3]
         while True:
             for i in driver.find_elements_by_xpath('//*[@id="pg0_V_dgCourses"]/tbody/tr'):
                 a=[]
-                #course id
-                #print(j)
-                try:
+                 try:
                     if driver.find_element_by_xpath(f'//*[@id="pg0_V_dgCourses"]/tbody/tr[{j}]/td[3]').text == "":
                          a.append("ID NULL")
                     else:
@@ -141,7 +141,7 @@ with open('historical_data.txt', 'w') as file: #output of scraped data
     for listitem in data:
         file.write('%s\n' % listitem)
         
-with fileinput.FileInput('historical_data.txt', inplace=True, backup='.bak') as file:
+with fileinput.FileInput('historical_data.txt', inplace=True, backup='.bak') as file:  #rename output as needed
     for line in file:
         print(line.replace("['']", ""), end='')
 
