@@ -72,13 +72,14 @@ class CourseSearch:
         combined = pd.concat([historic,winnet])
         combined = combined.drop_duplicates(subset=cols, keep='last')
         combined.set_index(['Course_ID','Year','Term'], inplace=True)
-        combined.to_csv(r'course_history.txt',header=None,index=None,sep='"',mode='a')
-        winnet.to_csv(r'Changelog.txt',header=None,index=None,sep='"',mode='a')
-        historic.to_csv(r'historic_legacy.txt',header=None,index=None,sep='"',mode='a')
+        combined.to_csv(r'course_history.txt',header=['Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
+        winnet.to_csv(r'Changelog.txt',header=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
+        historic.to_csv(r'historic_legacy.txt',header=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'],index=['Course_ID','Year','Term'],sep='"',mode='w')
+        
         timestr = time.strftime("%Y-%m-%d")
         changelog = "Changelog"+timestr+".txt"
         historic_V = 'historic_legacy'+timestr+'.txt'
-        #os.rename is to append the Current Date as pd.dataFrame.to_csv can't take a variable str w/ Datetime
+        #os.rename is to append the Current Date as d.dataFrame.to_csv can't take a variable str w/ Datetime
         #os.rename will not change filename if the filename already exists
         os.rename('Changelog.txt',changelog)
         os.rename('historic_legacy.txt',historic_V)
