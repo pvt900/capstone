@@ -1,18 +1,19 @@
-from cf_api import search as cfapi
+from cf_api import CourseSearch as cfapi
 
 
 def main():
     test = cfapi()
     #test.set_keyword('This is useless')
     departs = test.get_departments()
-    test.set_department('Psychology')
+    #test.set_department('Psychology')
     instructors = test.get_instructors()
     terms = test.get_terms()
-    test.set_term(2018,'Fall Term')
+    #test.set_term(2018,'Fall Term')
     a = test.search_form()
+    b= test.update_historic()
+    
     #test.display_browser()
-    for i in a:
-        print(i)
+
     
 if __name__ == '__main__':
     main()

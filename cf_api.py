@@ -1,18 +1,24 @@
-#API functions for Wartburg Winnet Course Finder
+#cf_api.py
+#Written for CS460 01 Capstone at Wartburg College
+#Instructor/Client - Dr.John Zelle
 #By: Will Goettl & Rob Farmer
+
 import mechanicalsoup
+import pandas as pd
 from bs4 import BeautifulSoup as soup
-from datetime import datetime 
+from datetime import datetime
+
 class CourseSearch:
     def __init__(self):
         '''
-        Initializes Variables & StatefulBrowser for use within the Search class
+        Initializes Variables & StatefulBrowser for use within the CourseSearch class
         '''
         #Sets Statefulself.browser Object to winnet then it it grabs form
         self.browser = mechanicalsoup.StatefulBrowser()
         self.browser.open("http://winnet.wartburg.edu/coursefinder/")
         self.page = self.browser.select_form()
         self.option_list = self.browser.get_current_page().findAll('option')
+        
         #Form Variables
         self.keyword = None
         self.dept = None
@@ -25,6 +31,7 @@ class CourseSearch:
         self.pass_fail = False
         self.instructor = None
         self.course_open = None
+        
         #DropDownDictionaries
         self.course_list = []
         self.changes = []
@@ -48,37 +55,26 @@ class CourseSearch:
         self.WI = {'none':'Not selected', 'WI':'Writing Intensive'}
         self.PF = {'none':'Not selected', 'PF':'Pass/D/F basis'}
         self.Instructor = {'0':'Not Selected'}
-    def update(self):
-        '''
-        Opens file containing historic data
-        Takes the Search form results and indexes them into a hashtable
-        compares the courses in winnet to the historic courses and appends
-        courses that new and overwrite courses that are pre-existing.
-        '''
-        changelog = {}
-        with open('course_history.csv','r') as file:
-            data = file.readlines()
-            
-        winnet = self.search_form()
-        indexed_winnet = {}
         
-        for course in winnet:
-            key = (course[0],course[6],course[7])
-            indexed_winnet[key] = course
-            
-        for n,line in enumerate(data):
-            key = (line[0],line[6],line[7])
-            if key in indexed_winnet.keys():
-                data[n] = indexed_winnet.get(key)
-                changelog[key] = (str(indexed_winnet.get(key) + 'Overwrite'))
-
-                
-    
-        with open('course_history.csv', 'w') as file:
-            pass
+    def update_historic(self):
+        '''
+        Opens file containing historical course data
+        Takes search results and indexes them into a hashtable
+        It then compares the courses in winnet to the historic courses and appends
+        courses that are new and overwrites courses that are pre-existing.
+        '''
+        historic = pd.read_csv('course_history.txt', header=None, sep='"', encoding = 'ISO-8859-1',
+                               names=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'])
+        winnet = pd.DataFrame(self.data,
+                              columns=['Course_ID', 'Course_Title', 'Professor_Name','Meeting_Time','Enrollment','Room','Year','Term','Credit'])
+        cols = ['Course_ID','Year','Term']
+        combined = pd.concat([historic,winnet])
+        combined = combined.drop_duplicates(subset=cols, keep='last')
+        combined.set_index(['Course_ID','Year','Term'], inplace=True)
+        
     def set_keyword(self,key):
         '''
-        Takes a String to be passed into the Keyword Search
+        Takes a String to be passed into the Keyword search parameter
         '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$TextBox_keyword', key)
 
@@ -120,8 +116,8 @@ class CourseSearch:
 
     def set_term(self,year,semester):
         '''
-        Takes year (int) and semester (string)
-        passes parameters to form as concatencated String
+        Takes year (int) and semester (str)
+        passes parameters to form as concatencated str
         '''
         term = str(year)+' '+semester
         self.page.set("ctl00$ContentPlaceHolder1$FormView1$DropDownList_Term", term)
@@ -154,7 +150,7 @@ class CourseSearch:
 
     def set_ed(self,ed):
         '''
-        Takes ed as string and passes to form for Essential Ed.
+        Takes 'ed' as string and passes to form for Essential Ed.
         '''
         for k,v in self.Times.items():
             if ed in v:
@@ -162,7 +158,7 @@ class CourseSearch:
     
     def get_cd(self):
         '''
-        Returns list of Cult-Diversity Options
+        Returns list of Cultural-Diversity Requirment Options
         '''
         cd = []
         for key,value in self.CD.items():
@@ -171,7 +167,7 @@ class CourseSearch:
 
     def set_cd(self,option):
         '''
-        Takes option as a string parameter, evaluates that self.CD contains param.
+        Takes option as a str, evaluates that self.CD contains the parameter
         If so, passes it to form to set Culural Diversity field.
         '''
         cdo = [k for k,v in self.CD.items() if v.casefold() == option.casefold()]
@@ -179,7 +175,7 @@ class CourseSearch:
 
     def set_wi(self, wi):
         '''
-        Takes wi as boolean parameter and sets fields with boolean.
+        Takes 'wi' as bool and sets fields with boolean.
         '''
         if wi == True:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'WI')
@@ -188,8 +184,8 @@ class CourseSearch:
 
     def is_pf(self,pf):
         '''
-        Takes parameter pf as boolean.
-        passes corresponding T/F to Pass/Fail Field.
+        Takes parameter 'pf' as bool
+        passes corresponding T/F to Pass/Fail Field
         '''
         if pf == True:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_PassFail', 'PF')
@@ -200,10 +196,10 @@ class CourseSearch:
         '''
         Determines instructors from Search form HTML,
         Creates a dictionary based on their ID:Names
-        Returns an array of all of the names.
+        Returns an array all names.
         '''
         for item in self.option_list:
-            value = str(item).split('"')
+            value = str(item).split('"') #used " as delimeter due to , and ' being used in the course data
             if value[1].isdigit():
                 self.Instructor[value[1]] = item.get_text()
         proflist = []
@@ -213,7 +209,7 @@ class CourseSearch:
 
     def set_instructor(self, name):
         '''
-        Takes param name as a string, cross-references instructor dictionary
+        Takes parameter name as a str, cross-references instructor dictionary
         passes Instructor ID to instructor field.
         '''
         #transform name to id_num
@@ -223,7 +219,7 @@ class CourseSearch:
 
     def couse_open(self, option):
         '''
-        Takes param option as boolean, passes boolean to field
+        Takes parameter option as bool, passes bool to field
         '''
         self.page.set('ctl00$ContentPlaceHolder1$FormView1$CheckBox_OpenCourses', option)
     
@@ -259,6 +255,7 @@ class CourseSearch:
                 counter = 0
         for item in self.course_list:
            self.data.append([item[5],item[6],item[7],item[8],item[9],item[10],item[11],item[12],item[14]])
+        
         return self.data
 
     def display_browser(self):
@@ -269,7 +266,7 @@ class CourseSearch:
     
     def save_file(self):
         '''
-        Saves the Results of the search to a .csv file
+        Saves the results of the search to a .csv file
         '''
         
         with open('test_data.txt', 'w') as handler: #output of scraped data
@@ -277,47 +274,3 @@ class CourseSearch:
             
             for course in self.course_list:
                 handler.write('%s\n' % list(course))           
-
-class CourseData():
-    def __init__(self, CourseList):
-        self.Courses = CourseList
-    def Instructor(self):
-        instructors = []
-        for course in self.Course:
-            instructors.append(course[2])
-        return (instructors)
-    def Id(self):
-        ids = []
-        for course in self.Course:
-            ids.append(course[0])
-        return (ids)        
-    def Title(self):
-        titles = []
-        for course in self.Course:
-            titles.append(course[1])
-        return (titles)
-    def Time(self):
-        time = []
-        for course in self.Course:
-            time.append(course[3])
-        return (time)
-    def Enrollment(self):
-        classsize = []
-        for course in self.Course:
-            classsize.append(course[4])
-        return (classsize)
-    def Location(self):
-        room = []
-        for course in self.Course:
-            room.append(course[5])
-        return (room)
-    def Year(self):
-        year = {}
-        for course in self.Course:
-            year[course[6]]=course[7]
-        return (year)
-    def Credits(self):
-        credits = []
-        for course in self.Course:
-            credits.append(course[8])
-        return (credits)
