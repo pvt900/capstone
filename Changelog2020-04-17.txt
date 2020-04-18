@@ -1,0 +1,575 @@
+AC   121  01   "Principles of Accounting I"Pilcher, A"M W F 10:45AM-11:50AM"45/40/0"WBC  116  "2019-20"WI"1.00
+AC   122  01   "Principles of Accounting II"Pilcher, A"MWF 12:00PM-1:05PM"45/42/0"WBC  116  "2019-20"WI"1.00
+AC   122  02   "Principles of Accounting II"Pilcher, A"M W F 2:30PM-3:35PM"45/38/0"WBC  116  "2019-20"WI"1.00
+AC   322  01   "Intermediate Accounting II"Crouse, J"MWF 9:00AM-10:05AM"28/27/0"WBC  116  "2019-20"WI"1.00
+AC   323  01   "Cost Accounting"Pilcher, A" T H  9:35AM-11:15AM"30/27/0"WBC  116  "2019-20"WI"1.00
+AC   424  01   "Income Tax Accounting II"Sommermeyer, E"M W F 10:45AM-11:50AM"40/9/0"WBC  217  "2019-20"WI"1.00
+AC   425  01   "Auditing"Sommermeyer, E"MWF 7:45AM-8:50AM"24/14/0"WBC  217  "2019-20"WI"1.50
+AC   425  01   "Auditing"Sommermeyer, E"  H 7:45AM-9:25AM"24/14/0"WBC  217  "2019-20"WI"1.50
+ART  108  01   "Graphic Design"Sund, P"M W F 9:00AM-10:05AM"20/16/0"FAC  114C "2019-20"WI"1.00
+ART  108  02   "Graphic Design"Payne, T"M W F 1:15PM-2:20PM"20/19/0"FAC  114C "2019-20"WI"1.00
+ART  111  01   "Drawing"Fedeler, B" T H  8:30AM-11:15AM"16/17/0"FAC  114D "2019-20"WI"1.00
+ART  201  01   "Painting"Fedeler, B" T H  1:00PM-3:35PM"20/12/0"FAC  114E "2019-20"WI"1.00
+ART  205  01   "Communication Design"Payne, T"M W F 10:45AM-11:50AM"20/13/0"FAC  114C "2019-20"WI"1.00
+ART  260  01   "History of Western Art"Fedeler, B"M W F 10:45AM-11:50AM"20/19/0"FAC  114J "2019-20"WI"1.00
+ART  301  01   "Advanced Drawing and Painting"Fedeler, B" T H  1:00PM-3:35PM"18/3/0"FAC  114E "2019-20"WI"1.00
+ART  310  01   "Advanced  Design Projects"Payne, T" T H  9:35AM-11:15AM"20/15/0"FAC  114C "2019-20"WI"1.00
+ART  462  01   "Seminar in Art: Exhibition"Payne, T"M W   2:30PM-3:35PM"10/8/0"FAC  114J "2019-20"WI"0.50
+ART  480  01   "K-12 Art Methods"Maynard, L"M W   6:30PM-9:00PM"18/3/0"FAC  114G "2019-20"WI"1.50
+BA   311  01   "Comm for Business Professionals"Gonnerman, M" T    9:35AM-11:15AM"22/22/0"WBC  117  "2019-20"WI"0.50
+BA   311  02   "Comm for Business Professionals"Gonnerman, M"   H  9:35AM-11:15AM"22/20/0"WBC  117  "2019-20"WI"0.50
+BA   331  01   "Business Law I"Luhring, L"MWF 12:00PM-1:05PM"40/42/0"WBC  214  "2019-20"WI"1.00
+BA   334  01   "Business Finance"Abdiah, S"MWF 9:00AM-10:05AM"36/36/0"WBC  214  "2019-20"WI"1.00
+BA   338  01   "Portfolio Management"Sommermeyer, E"T  2:50PM-3:40PM"15/15/0"WBC  214  "2019-20"WI"0.25
+BA   345  01   "Principles of Management"Bernard, A"MWF 9:00AM-10:05AM"32/32/0"WBC  117  "2019-20"WI"1.00
+BA   345  02   "Principles of Management"Meyeraan, S" T H  7:45AM-9:25AM"32/27/0"WBC  117  "2019-20"WI"1.00
+BA   346  01   "Human Resource Management"Meyeraan, S"M W F 9:00AM-10:05AM"35/20/0"WBC  215  "2019-20"WI"1.00
+BA   353  01   "Principles of Marketing"Gonnerman, M"M W F 10:45AM-11:50AM"32/32/0"WBC  117  "2019-20"WI"1.00
+BA   353  02   "Principles of Marketing"Folkers, K"M W F 2:30PM-3:35PM"32/28/0"WBC  215  "2019-20"WI"1.00
+BA   361  01   "Operations Management "Black, D"M W F 7:45AM-8:50AM"25/11/0"WBC  215  "2019-20"WI"1.00
+BA   375  01   "Online Marketing"Richardson-Burns, R" T    6:30PM-9:30PM"32/25/0"WBC  117  "2019-20"WI"1.00
+BA   418  01   "Sustainable Economics and Finance"Quaicoe, N"M W F 10:45AM-11:50AM"30/23/0"WBC  214  "2019-20"WI"1.00
+BA   438  01   "Organizational Behavior & Mgmt"Gonnerman, M"M W F 1:15PM-2:20PM"30/19/0"WBC  215  "2019-20"WI"1.00
+BA   442  01   "International Marketing"Folkers, K" T H  1:00PM-2:40PM"28/13/0"WBC  217  "2019-20"WI"1.00
+BA   454  01   "Advertising and Promotion"Folkers, K"M W F 12:00PM-1:05PM"30/30/0"WBC  215  "2019-20"WI"1.00
+BA   460  01   "Senior Seminar in Business"Bernard, A" T H  7:45AM-9:25AM"22/22/0"WBC  215  "2019-20"WI"1.00
+BA   460  02   "Senior Seminar in Business"Bernard, A" T H  9:35AM-11:15AM"22/23/0"WBC  215  "2019-20"WI"1.00
+BA   481  01   "Fin Stmt Anlysis & Secur Valuation"Sommermeyer, E"M W F 1:15PM-2:20PM"40/29/0"WBC  214  "2019-20"WI"1.00
+BI   130  01   "Drugs and Personal Health"Place, A"M F 1:15PM-2:55PM"24/25/1"SC   134  "2019-20"WI"1.00
+BI   130  01   "Drugs and Pers Health Lab"Place, A"  W   1:15PM-2:55PM"24/25/1"SC   034  "2019-20"WI"0.00
+BI   131  01   "Biology of Ordinary Things"Bechtel, M"M W F 9:00AM-10:05AM"24/22/0"SC   128  "2019-20"WI"1.00
+BI   131  01   "Biology of Ordinary Things Lab"Bechtel, M" T    7:45AM-9:25AM"24/25/0"SC   128  "2019-20"WI"0.00
+BI   131  02   "Biology of Ordinary Things"Bechtel, M"M W F 10:45AM-11:50AM"24/24/0"SC   128  "2019-20"WI"1.00
+BI   131  02   "Biology of Ordinary Things Lab"Bechtel, M" T    9:35AM-11:15AM"24/21/0"SC   128  "2019-20"WI"0.00
+BI   152  01   "Bio II:Phylogeny,Structure,Function"Larimer Bousquet, S"M W F 9:00AM-10:05AM"70/62/0"SC   102  "2019-20"WI"1.00
+BI   152  01   "Bio II:Phylogeny,Structure,Func Lab"Berns, E" T    7:45AM-11:00AM"24/26/0"SC   126  "2019-20"WI"0.00
+BI   152  02   "Bio II:Phylogeny,Structure,Function"Gerken Golay, M"M W F 12:00PM-1:05PM"50/38/0"SC   102  "2019-20"WI"1.00
+BI   152  02   "Bio II:Phylogeny,Structure,Func Lab"Berns, E" T    1:00PM-4:15PM"24/24/1"SC   126  "2019-20"WI"0.00
+BI   152  04   "Bio II:Phylogeny,Structure,Func Lab"Berns, E"   H  7:45AM-11:00AM"24/27/0"SC   126  "2019-20"WI"0.00
+BI   152  05   "Bio II:Phylogeny,Structure,Func Lab"McClung, J"   H  1:00PM-4:15PM"24/23/0"SC   126  "2019-20"WI"0.00
+BI   201  01   "Plant Biology"Gerken Golay, M"M W F 2:30PM-3:35PM"24/10/0"SC   145  "2019-20"WI"1.00
+BI   201  01   "Plant Biology"Gerken Golay, M"   H  1:00PM-4:15PM"24/10/0"SC   145  "2019-20"WI"0.00
+BI   204  0R   "Conserv of Natural Resources Lab"Bechtel, M"Null"1/1/0"Null"2019-20"WI"0.00
+BI   204  2R   "Conserv of Natural Resources"McCullough, D"Null"1/1/0"Null"2019-20"WI"0.00
+BI   211  01   "Genetics"McCullough, D"MWF 1:15PM-2:20PM"48/37/0"SC   102  "2019-20"WI"1.00
+BI   211  01   "Genetics Lab 1"McCullough, D"M W 3:50PM-5:30PM"24/14/0"SC   104  "2019-20"WI"0.00
+BI   211  02   "Genetics Lab 2"McCullough, D"TH 7:45AM-9:25AM"24/23/0"SC   104  "2019-20"WI"0.00
+BI   305  01   "Microbiology"Sylvain, Z"MWF 12:00PM-1:05PM"48/50/0"SC   134  "2019-20"WI"1.00
+BI   305  01   "Microbiology Lab 1"Sylvain, Z" T H 9:35AM-11:15AM"24/25/0"SC   024  "2019-20"WI"0.00
+BI   305  02   "Microbiology Lab 2"Sylvain, Z"T H 1:00PM-2:40PM"24/25/0"SC   024  "2019-20"WI"0.00
+BI   312  01   "Mammalian Anatomy and Physiology II"Blay, N"MWF 2:30PM-3:35PM"72/46/0"SC   102  "2019-20"WI"1.00
+BI   312  01   "Mammalian Anat and Phys II Lab 1"Blay, N"T  1:00PM-4:15PM"24/14/0"SC   030  "2019-20"WI"0.00
+BI   312  02   "Mammalian Anat and Phys II Lab 2"Blay, N" H 7:45AM-11:00AM"24/17/0"SC   030  "2019-20"WI"0.00
+BI   312  03   "Mammalian Anat and Phys II Lab 3"Blay, N"   H  1:00PM-4:15PM"24/15/0"SC   030  "2019-20"WI"0.00
+BI   355  20   "Biomechanics of Human Movement"Rave, A"M W F 12:00PM-1:05PM"30/2/0"W    2242 "2019-20"WI"0.50
+BI   416  01   "Molecular Biology of Cancer"McClung, J"M W F 7:45AM-8:50AM"20/9/0"SC   041  "2019-20"WI"1.00
+BI   416  01   "Molecular Biology of Cancer Lab"McClung, J" T H  9:35AM-11:15AM"20/9/0"SC   110  "2019-20"WI"0.00
+BI   440  01   "Teaching Practicum in Biology"Blay, N"Null"10/6/0"Null"2019-20"WI"0.25
+BI   455  01   "Methods of Biological Research"McClung, J" T 6:30PM-7:35PM"16/10/0"SC   141  "2019-20"WI"0.50
+BI   456  01   "Student Originated Research"Ventullo, R" T   7:45PM-8:50PM"24/24/0"SC   141  "2019-20"WI"0.50
+BI   461  01   "Science Seminar"McClung, J"MW 10:45AM-11:50AM"25/23/0"SC   141  "2019-20"WI"0.50
+CCJ  305  01   "Victimology"McQueen, J" T H  9:35AM-11:15AM"20/14/0"LH   201  "2019-20"WI"1.00
+CCJ  309  01   "Juvenile Justice"McQueen, J"M W F 12:00PM-1:05PM"20/16/0"CTC  200  "2019-20"WI"1.00
+CCJ  335  01   "Crime and Deviance"McQueen, J"M W F 2:30PM-3:35PM"25/21/0"LH   201  "2019-20"WI"1.00
+CH   114  01   "Principles of Chemistry II"DeVries, C"MWF 7:45AM-8:50AM"60/59/0"SC   102  "2019-20"WI"1.00
+CH   114  01   "Principles of Chemistry II Lab 1"DeVries, C"T 8:30AM-11:15AM"24/24/0"SC   206  "2019-20"WI"0.00
+CH   114  02   "Principles of Chemistry II"Zart, L"M W F 10:45AM-11:50AM"100/54/0"SC   102  "2019-20"WI"1.00
+CH   114  02   "Principles of Chemistry II Lab 2"DeVries, C"T   1:00PM-3:45PM"24/22/0"SC   206  "2019-20"WI"0.00
+CH   114  03   "Principles of Chemistry II Lab 3"Schumacher, D"   H  8:30AM-11:15AM"24/20/0"SC   202  "2019-20"WI"0.00
+CH   114  04   "Principles of Chemistry II Lab 4"Zart, M"   H  8:30AM-11:15AM"24/22/0"SC   206  "2019-20"WI"0.00
+CH   114  05   "Principles of Chemistry II Lab 5"Schumacher, D"   H  1:00PM-3:45PM"24/24/0"SC   202  "2019-20"WI"0.00
+CH   212  01   "Organic Chemistry II"Zart, L"MWF 7:45AM-8:50AM"54/30/0"SC   134  "2019-20"WI"1.00
+CH   212  01   "Organic Chemistry II Lab 1"Zart, L"T 1:00PM-4:30PM"18/10/0"SC   226  "2019-20"WI"0.00
+CH   212  02   "Organic Chemistry II Lab 2"Zart, M" W 6:30PM-10:00PM"18/7/0"SC   226  "2019-20"WI"0.00
+CH   212  03   "Organic Chemistry II Lab 3"Zart, L"   H  1:00PM-4:30PM"18/13/0"SC   226  "2019-20"WI"0.00
+CH   217  01   "Analytical Chemistry"Zart, M"M W F 10:45AM-11:50AM"36/19/0"SC   245  "2019-20"WI"1.00
+CH   217  01   "Analytical Chemistry Lab 1"Zart, M" T  8:00AM-10:45AM"18/7/0"SC   230  "2019-20"WI"0.00
+CH   217  02   "Analytical Chemistry Lab 2"Zart, M" T    1:00PM-3:45PM"18/12/0"SC   230  "2019-20"WI"0.00
+CH   316  01   "Chemical Thermodynamics & Kinetics"DeVries, C"MWF 1:15PM-2:20PM"18/9/0"SC   244  "2019-20"WI"1.00
+CH   316  01   "Chem Thermodynamics & Kinetics Lab"DeVries, C"   H  1:00PM-4:00PM"18/9/0"SC   238  "2019-20"WI"0.00
+CH   425  01   "Advanced Biochemistry"Ellerbroek, S"MWF 9:00AM-10:05AM"36/29/0"SC   214  "2019-20"WI"1.00
+CH   425  01   "Advanced Biochemistry Lab"Ellerbroek, S" T  1:00PM-3:45PM"18/17/0"SC   110  "2019-20"WI"0.00
+CH   425  02   "Advanced Biochemistry Lab 2"Ellerbroek, S"   H  1:00PM-3:45PM"18/11/0"SC   110  "2019-20"WI"0.00
+CH   456  01   "Student-Originated Research"Ellerbroek, S" T    7:45PM-8:50PM"8/7/0"SC   141  "2019-20"WI"0.50
+COM  100  01   "Introduction to Communication"Martin, J" T H  9:35AM-11:15AM"50/23/0"SC   134  "2019-20"WI"1.00
+COM  112  10   "Oral Communication"Pier, P"M W F 7:45AM-8:50AM"22/23/0"MC   225  "2019-20"WI"0.50
+COM  112  11   "Oral Communication"Ohrt, P"M W F 9:00AM-10:05AM"22/22/2"MC   134  "2019-20"WI"0.50
+COM  112  12   "Oral Communication"Pier, P"M W F 2:30PM-3:35PM"22/21/4"MC   225  "2019-20"WI"0.50
+COM  112  20   "Oral Communication"Ohrt, P"M W F 9:00AM-10:05AM"22/23/0"MC   134  "2019-20"WI"0.50
+COM  125  01   "TV Practicum"Johnson, R"Null"99/6/0"Null"2019-20"WI"0.25
+COM  126  01   "Radio Practicum"Ohrt, P"Null"99/3/0"Null"2019-20"WI"0.25
+COM  127  01   "Organizational & PR Practicum"Pier, P"Null"99/7/0"Null"2019-20"WI"0.25
+COM  128  01   "Print Practicum"Martin, J"Null"99/10/0"Null"2019-20"WI"0.25
+COM  200  01   "Media Writing"Ohrt, P"M     2:30PM-3:35PM"38/17/0"MC   134  "2019-20"WI"1.00
+COM  200  01   "Media Writing Lab 1"Ohrt, P" T    1:00PM-2:40PM"19/10/0"MC   133  "2019-20"WI"0.00
+COM  200  02   "Media Writing Lab 2"Ohrt, P"   H  1:00PM-2:40PM"19/7/0"MC   133  "2019-20"WI"0.00
+COM  206  01   "Audio Production"Ohrt, P" T H  9:35AM-11:15AM"16/18/0"MC   133  "2019-20"WI"1.00
+COM  211  01   "Video Production"Johnson, R" T H  2:50PM-4:30PM"16/16/0"MC   133  "2019-20"WI"1.00
+COM  270  01   "Comm Persp:Gender & Sexuality"Pier, P"M W F 10:45AM-11:50AM"25/14/0"MC   225  "2019-20"WI"1.00
+COM  304  01   "Media Marketing and Management"Johnson, R"M W F 1:15PM-2:20PM"50/9/0"MC   134  "2019-20"WI"1.00
+COM  312  01   "Broadcast Journalism"Martin, J"M W F 12:00PM-1:05PM"16/7/0"MC   133  "2019-20"WI"1.00
+COM  348  01   "Integrated Marketing Communication"Fruehling, L" T H  1:00PM-2:40PM"24/15/0"MC   225  "2019-20"WI"1.00
+COM  349  01   "Multimedia Journalism"Martin, J"M W F 9:00AM-10:05AM"16/13/0"MC   225  "2019-20"WI"1.00
+COM  375  01   "Online Marketing"Richardson-Burns, R" T    6:30PM-9:30PM"32/8/0"WBC  117  "2019-20"WI"1.00
+COM  461  01   "Journalism & Communication Capstone"Pier, P"M W F 1:15PM-2:20PM"24/16/0"MC   225  "2019-20"WI"1.00
+CS   110  01   "Introduction to Information Systems"Hamilton, P" T H  9:35AM-11:15AM"34/35/0"SC   247  "2019-20"WI"1.00
+CS   110  02   "Introduction to Information Systems"Hamilton, P" T H  1:00PM-2:40PM"34/34/0"SC   249  "2019-20"WI"1.00
+CS   205  01   "Data Wrangling and Visualization"Letsche, T"M W F 10:45AM-11:50AM"34/22/0"SC   345  "2019-20"WI"1.00
+CS   220  01   "Obj-Orient Prog & Intro Data Struct"Zelle, J"MWF 12:00PM-1:05PM"34/34/1"SC   345  "2019-20"WI"1.00
+CS   320  01   "Data Structure & Algorithm Analysis"Zelle, J"MWF 9:00AM-10:05AM"34/17/0"SC   345  "2019-20"WI"1.00
+CS   460  01   "Systems Design Project"Zelle, J"TH 1:00PM-2:40PM"34/12/0"SC   345  "2019-20"WI"1.00
+CS   461  01   "Perspectives in Computer Science"Letsche, T"M W F 1:15PM-2:20PM"30/12/0"SC   345  "2019-20"WI"1.00
+EC   117  01   "Principles of Macroeconomics"Abdiah, S" T H  9:35AM-11:15AM"45/24/0"WBC  217  "2019-20"WI"1.00
+EC   117  02   "Principles of Macroeconomics"Abdiah, S" T H  1:00PM-2:40PM"45/27/0"WBC  214  "2019-20"WI"1.00
+EC   118  01   "Principles of Microeconomics"Quaicoe, N"M W F 1:15PM-2:20PM"45/44/0"WBC  116  "2019-20"WI"1.00
+EC   118  02   "Principles of Microeconomics"Quaicoe, N" T H  9:35AM-11:15AM"45/41/0"WBC  214  "2019-20"WI"1.00
+EC   318  01   "Microeconomic Theory"Quaicoe, N"M W F 9:00AM-10:05AM"30/17/0"WBC  217  "2019-20"WI"1.00
+EC   418  01   "Sustainable Economics and Finance"Quaicoe, N"M W F 10:45AM-11:50AM"30/12/0"WBC  214  "2019-20"WI"1.00
+EC   462  01   "Senior Thesis II"Quaicoe, N" T    7:45AM-9:25AM"18/12/0"WBC  217  "2019-20"WI"0.50
+ED   100  01   "Foundations of American Education"Rod Szabo, M"MWF 9:00AM-10:05AM"30/17/0"LIB  CLAB "2019-20"WI"1.00
+ED   100  02   "Foundations of American Education"Rod Szabo, M"MWF 12:00PM-1:05PM"30/23/0"LIB  CLAB "2019-20"WI"1.00
+ED   173  20   "Field Experience in ESL"Rod Szabo, M"Null"15/6/0"Null"2019-20"WI"0.00
+ED   181  01   "Field Experience in Education"Rod Szabo, M"Null"60/40/0"Null"2019-20"WI"0.00
+ED   212  01   "Human Relations"Faga, K" T H  1:00PM-2:40PM"30/26/0"CLNA 127  "2019-20"WI"1.00
+ED   215  01   "Psychology of the Exceptional Child"Faga, K" T H  7:45AM-9:25AM"25/21/0"OM   200  "2019-20"WI"1.00
+ED   215  02   "Psychology of the Exceptional Child"Faga, K" T H  9:35AM-11:15AM"25/24/0"OM   200  "2019-20"WI"1.00
+ED   221  01   "Teaching Elementary Social Studies"Snyder, R" T H  9:35AM-11:15AM"25/24/0"OM   100  "2019-20"WI"1.00
+ED   224  20   "Teaching PE/Health in Elem School"Krogh, J"Null"25/23/0"Null"2019-20"WI"0.50
+ED   315  01   "Educational Psychology"Snyder, R"MWF 7:45AM-8:50AM"25/24/0"OM   100  "2019-20"WI"1.00
+ED   315  02   "Educational Psychology"Snyder, R" T H  1:00PM-2:40PM"25/11/0"OM   100  "2019-20"WI"1.00
+ED   320  01   "Teaching Language Arts"TeKippe, S"M W F 9:00AM-10:05AM"25/23/0"CLNA 127  "2019-20"WI"1.00
+ED   326  01   "Diagnostic and Remedial Reading"Jensen, R" T H  1:00PM-2:40PM"25/14/0"LIB  CLAB "2019-20"WI"1.00
+ED   334  01   "Managing Behav & Skills in Spec Ed"Hirst, T" T    6:30PM-9:30PM"25/8/0"OM   200  "2019-20"WI"1.00
+ED   350  01   "Content Area Reading Strategies"Jensen, R"TH 7:45AM-9:25AM"25/24/0"LIB  CLAB "2019-20"WI"1.00
+ED   382  01   "Field Experience: Remedial Reading"Jensen, R"Null"25/14/0"Null"2019-20"WI"0.00
+ED   383  01   "Field Experience:Educational Psych"Snyder, R"Null"50/36/0"Null"2019-20"WI"0.00
+ED   473  20   "Methods and Pedagogy in PreK-12 ESL"Rod Szabo, M"Null"15/6/0"Null"2019-20"WI"1.00
+ED   480  01   "Student Teaching: Special Education"Faga, K"Null"8/4/0"Null"2019-20"WI"2.00
+ED   480  02   "Student Teaching: Special Education"Hirst, T"Null"6/3/0"Null"2019-20"WI"2.00
+ED   482  01   "Elem Student Teaching & Capstone"Faga, K"Null"18/3/0"Null"2019-20"WI"4.00
+ED   482  02   "Elem Student Teaching & Capstone"Rod Szabo, M"Null"20/2/0"Null"2019-20"WI"2.00
+ED   482  03   "Elem Student Teaching & Capstone"Rod Szabo, M"Null"6/2/0"Null"2019-20"WI"4.00
+ED   482  04   "Elem Student Teaching & Capstone"TeKippe, S"Null"6/1/0"Null"2019-20"WI"4.00
+ED   482  05   "Elem Student Teaching & Capstone"Faga, K"Null"6/3/0"Null"2019-20"WI"2.00
+ED   482  06   "Elem Student Teaching & Capstone"Jensen, R"Null"6/2/0"Null"2019-20"WI"2.00
+ED   482  07   "Elem Student Teaching & Capstone"TeKippe, S"Null"6/2/0"Null"2019-20"WI"2.00
+ED   483  01   "Sec Student Teaching Capstone & Sem"Snyder, R"Null"25/4/0"Null"2019-20"WI"4.00
+ED   483  02   "Sec Student Teaching Capstone & Sem"TBA, T"Null"10/0/0"Null"2019-20"WI"2.00
+ED   483  03   "Sec Student Teaching Capstone & Sem"Thompson, C"Null"6/4/0"Null"2019-20"WI"4.00
+ED   483  04   "Sec Student Teaching Capstone & Sem"Bechtel, M"Null"5/1/0"Null"2019-20"WI"4.00
+ED   484  01   "PreK/K Student Teaching & Capstone"Faga, K"Null"10/1/0"Null"2019-20"WI"2.00
+ED   484  02   "PreK/K Student Teaching & Capstone"Jensen, R"Null"10/1/0"Null"2019-20"WI"2.00
+ED   485  01   "Music Student Teaching & Capstone"Muntefering, S"Null"12/2/0"Null"2019-20"WI"3.50
+ED   486  01   "PE Student Teaching :K-12 &Capstone"Winter, K"Null"25/1/0"Null"2019-20"WI"4.00
+ED   488  01   "Middle School Student Teaching"TBA, T"Null"6/0/0"Null"2019-20"WI"2.00
+ED   489  01   "5-12 Health Student Teaching"TBA, T"Null"25/0/0"Null"2019-20"WI"1.00
+EN   112  01   "Intermediate Composition"Bingham, L"MWF 7:45AM-8:50AM"22/22/0"CTC  201  "2019-20"WI"1.00
+EN   112  02   "Intermediate Composition"Bingham, L"M W F 9:00AM-10:05AM"22/20/0"CTC  201  "2019-20"WI"1.00
+EN   112  03   "Intermediate Composition"Nolan, A"M W F 10:45AM-11:50AM"22/25/0"CTC  201  "2019-20"WI"1.00
+EN   112  04   "Intermediate Composition"Gruenwald, J"M W F 12:00PM-1:05PM"22/13/0"CTC  201  "2019-20"WI"1.00
+EN   112  05   "Intermediate Composition"Platte, K"M W F 1:15PM-2:20PM"22/23/0"CTC  201  "2019-20"WI"1.00
+EN   112  06   "Intermediate Composition"Platte, K"M W F 2:30PM-3:35PM"22/20/0"CTC  201  "2019-20"WI"1.00
+EN   112  08   "Intermediate Composition"Lynch, S" T H  7:45AM-9:25AM"22/7/0"CTC  201  "2019-20"WI"1.00
+EN   112  09   "Intermediate Composition"Chapman, R" T H  7:45AM-9:25AM"22/15/0"LH   329  "2019-20"WI"1.00
+EN   112  30   "Intermediate Composition"Lynch, S" T H  9:35AM-11:15AM"22/22/0"CTC  201  "2019-20"WI"1.00
+EN   155  01   "Introduction to Film"Johnson, R"  W   6:30PM-9:30PM"30/34/0"CLNA 127  "2019-20"WI"1.00
+EN   202  01   "Survey of British Literature II"Clark, R"M W F 2:30PM-3:35PM"25/9/0"LH   326  "2019-20"WI"1.00
+EN   219  01   "Screenwriting"Nolan, A" T H  1:00PM-2:40PM"22/17/0"MC   134  "2019-20"WI"1.00
+EN   221  01   "Fiction Writing"Nolan, A" T H  9:35AM-11:15AM"15/17/0"LH   329  "2019-20"WI"1.00
+EN   244  01   "Young Adult Literature"Lynch, S"M W F 9:00AM-10:05AM"25/23/0"FAC  043  "2019-20"WI"1.00
+ENV  100  01   "Explorations Environmental Science"McCullough, D"  W   6:30PM-8:15PM"25/16/0"SC   145  "2019-20"WI"0.50
+ES   152  01   "Modern Engineering Analysis II"Faidley, L" T H  9:35AM-11:15AM"24/27/0"SC   243  "2019-20"WI"0.50
+ES   205  01   "Statics"Faidley, L"M W F 9:00AM-10:05AM"50/28/0"SC   141  "2019-20"WI"1.00
+ES   230  01   "Engineering Economic Analysis"Mahmoud, M"M W F 2:30PM-3:35PM"30/19/0"SC   214  "2019-20"WI"1.00
+ES   251  01   "Machinery and Manufacturing"Black, D" T    1:00PM-2:40PM"16/14/0"SC   245  "2019-20"WI"0.50
+ES   303  01   "Mechanics of Materials "Faidley, L"M W F 1:15PM-2:20PM"40/14/0"SC   247  "2019-20"WI"1.00
+ES   304  01   "Fluid Mechanics"Mahmoud, M"M W F 12:00PM-1:05PM"18/15/0"SC   244  "2019-20"WI"1.00
+ES   304  01   "Fluid Mechanics Lab"Black, D"   H  1:00PM-2:40PM"18/15/0"SC   342  "2019-20"WI"0.00
+ES   305  01   "Electronics"Black, D"M W F 10:45AM-11:50AM"36/14/0"SC   244  "2019-20"WI"1.00
+ES   350  01   "Engineering Design Methods"Faidley, L"   H  1:00PM-4:15PM"24/15/0"SC   244  "2019-20"WI"1.00
+ES   460  01   "Senior Design Project"Faidley, L"Null"12/9/0"Null"2019-20"WI"0.50
+EXS  218  01   "Human Anatomy and Physiology II"Westen, E"M W F 1:15PM-2:20PM"48/32/0"W    2242 "2019-20"WI"1.00
+EXS  218  01   "Human Anatomy & Physiology II Lab 1"Westen, E" T H  9:35AM-11:15AM"24/18/0"W    2242 "2019-20"WI"0.00
+EXS  218  02   "Human Anatomy & Physiology II Lab 2"Westen, E" T H  1:00PM-2:40PM"24/14/0"W    2242 "2019-20"WI"0.00
+EXS  325  01   "Advanced Exercise Physiology"Dietz Parsons, P"M W F 1:15PM-2:20PM"48/5/0"W    2240 "2019-20"WI"1.00
+EXS  325  02   "Advanced Exercise Physiology Lab 2"Dietz Parsons, P"   H  7:45AM-11:00AM"24/5/0"W    2240 "2019-20"WI"0.00
+EXS  349  01   "Current Topics: The Science of Obesity"Westen, E"M W F 10:45AM-11:50AM"30/13/0"W    2240 "2019-20"WI"1.00
+FR   106  01   "Elementary French II"Conrad, D"MWF 10:45AM-11:50AM"25/5/0"OM   101  "2019-20"WI"1.00
+GER  104  01   "Elementary German I"Losch, Y"M W F 12:00PM-1:05PM"25/26/2"LH   327  "2019-20"WI"1.00
+GER  106  01   "Elementary German II"Losch, Y"M WF 10:45AM-11:50AM"25/6/0"LH   329  "2019-20"WI"1.00
+GER  349  01   "Studies in German Lit and Culture: The German Legend and Fairy Tale"Losch, Y"M W F 2:30PM-3:35PM"20/4/0"LH   327  "2019-20"WI"1.00
+GM   261  01   "Lit & Culture of British Isles"Clark, R" T    6:30PM-8:10PM"20/14/0"LH   326  "2019-20"WI"0.50
+GM   301  01   "Return Adjustment"Boss, J"Null"12/5/0"Null"2019-20"WI"0.50
+GM   307  01   "Readings in Middle East Life & Cult"Schedtler, J"   H  6:30PM-8:10PM"20/17/0"GRO  132  "2019-20"WI"0.50
+GR   301  01   "Greek Readings"Schedtler, J" H 9:35AM-11:15AM"10/5/0"GRO  131  "2019-20"WI"0.50
+HB   202  01   "Biblical Hebrew II"Wendland, K" T H  7:45AM-9:25AM"25/10/0"GRO  131  "2019-20"WI"0.50
+HE   243  10   "Sport Psychology"Pins, T"M W F 9:00AM-10:05AM"30/30/0"W    2240 "2019-20"WI"0.50
+HE   244  20   "Coaching Authorization"Foster, D"M W F 12:00PM-1:05PM"30/28/0"OM   100  "2019-20"WI"0.50
+HE   246  01   "Coaching Theory"Holst, J"M W F 1:15PM-2:20PM"30/23/0"OM   200  "2019-20"WI"1.00
+HE   359  01   "Group Fitness Instruction"Foster, D" T H  1:00PM-2:40PM"30/8/0"W    2240 "2019-20"WI"1.00
+HE   440  01   "Community and Public Health"Walker, J"MWF 1:15PM-2:20PM"25/14/0"SC   041  "2019-20"WI"1.00
+HI   110  01   "American History Since 1877"Rumsey, B"MWF 10:45AM-11:50AM"40/41/0"CTC  200  "2019-20"WI"1.00
+HI   122  01   "World Civilizations II"Walther, D"M W F 9:00AM-10:05AM"35/19/0"LH   333  "2019-20"WI"1.00
+HI   270  01   "The Greeks and Romans"Barnhouse, L"M W F 12:00PM-1:05PM"35/19/0"LH   333  "2019-20"WI"1.00
+HI   282  01   "Women in Early World History "Barnhouse, L" T H  1:00PM-2:40PM"25/10/0"LH   333  "2019-20"WI"1.00
+HI   290  01   "Twentieth Century Europe"Walther, D"M W F 1:15PM-2:20PM"40/31/0"LH   326  "2019-20"WI"1.00
+HI   302  01   "The American Civil War"Smith, C" T H  7:45AM-9:25AM"25/8/0"CTC  200  "2019-20"WI"1.00
+HI   461  01   "Historiography"Walther, D"T 9:35AM-11:15AM"15/7/0"LH   333  "2019-20"WI"0.50
+ID   315  01   "Leadership Theories and Practices"Gleason, M"TH 1:00PM-2:40PM"25/26/2"SC   102  "2019-20"WI"1.00
+ID   315  02   "Leadership Theories and Practices"Waldstein, F" T H  1:00PM-2:40PM"25/27/0"SC   041  "2019-20"WI"1.00
+ID   340  01   "History of Western Medicine"Barnhouse, L"M W F 9:00AM-10:05AM"25/21/0"LH   201  "2019-20"WI"1.00
+ID   360  01   "The Metropolis:Place of Convergence"Lorenz, G"Null"15/2/0"Null"2019-20"WI"1.00
+ID   375  01   "Private Lives in Public Forms"Lynch, S"M W F 12:00PM-1:05PM"25/24/0"MC   134  "2019-20"WI"1.00
+IS   101  01   "Asking Questions, Making Choices: Surviving to Thriving in College"Leonard, L"MWF 1:15PM-2:20PM"25/7/0"WBC  217  "2019-20"WI"1.00
+IS   101  02   "Asking Questions, Making Choices: Surviving to Thriving in College"Hales, C"MWF 1:15PM-2:20PM"25/12/0"OM   100  "2019-20"WI"1.00
+IS   201  02   "Living in a Div World: Pop Culture"Mahmoud, M"M W F 9:00AM-10:05AM"25/25/0"SC   245  "2019-20"WI"1.00
+IS   201  03   "Living in a Div World: Pop Culture"Mahmoud, M" T H  1:00PM-2:40PM"25/24/0"SC   141  "2019-20"WI"1.00
+IS   201  04   "Living in a Div World: Sport Sociology"Pins, T" T H  1:00PM-2:40PM"25/26/0"CTC  200  "2019-20"WI"1.00
+IS   201  06   "Living in a Div World: Religion, Race, Gender & Identity"Rod Szabo, M"M W F 1:15PM-2:20PM"25/24/1"LIB  CLAB "2019-20"WI"1.00
+IS   201  07   "Living in a Div World: Faith and Fiction"Riswold, C"M W F 1:15PM-2:20PM"25/13/0"GRO  016  "2019-20"WI"1.00
+IS   201  08   "Living in a Div World: Political Terrorism"Billet, B"M W F 1:15PM-2:20PM"25/13/0"CTC  200  "2019-20"WI"1.00
+IS   201  09   "Living in a Div World: World Cinema"Boss, J"M     6:30PM-9:30PM"25/29/0"LH   329  "2019-20"WI"1.00
+LS   111  10   "Professional Business Career Prep"Gonnerman, M" T H  1:00PM-2:40PM"22/22/3"WBC  117  "2019-20"WI"0.50
+LS   111  20   "Professional Business Career Prep"Gonnerman, M" T H  1:00PM-2:40PM"22/21/2"WBC  117  "2019-20"WI"0.50
+LS   115  01   "Exploring Elements of Leadership"Gleason, M"M W F 1:15PM-2:20PM"30/30/0"CLNA 127  "2019-20"WI"1.00
+LS   115  02   "Exploring Elements of Leadership"Teig Torres, K" T H  9:35AM-11:15AM"30/31/0"CLNA 127  "2019-20"WI"1.00
+LS   260  01   "Urban Lifestyles"Lorenz, G"Null"15/7/0"Null"2019-20"WI"0.50
+LS   315  20   "Youth Leadership Mentoring Seminar"Gleason, M"Null"20/8/0"Null"2019-20"WI"0.50
+LS   405  01   "Leadership Portfolio Seminar"Waldstein, F"M W   12:00PM-12:50PM"25/15/0"SC   043  "2019-20"WI"0.50
+LS   405  02   "Leadership Portfolio Seminar"Gleason, M" T H  2:50PM-3:40PM"25/18/0"SC   043  "2019-20"WI"0.50
+MA   090  01   "Intermediate Math (Self-Paced)"Birgen, B" T    7:00PM-8:00PM"34/7/0"SC   249  "2019-20"WI"1.00
+MA   106  01   "Mathematics in Modern Society"Wright, J"MWF 9:00AM-10:05AM"34/24/0"SC   140  "2019-20"WI"1.00
+MA   107  01   "Finite Mathematics"Roose, M"MWF 10:45AM-11:50AM"34/27/0"SC   140  "2019-20"WI"1.00
+MA   107  02   "Finite Mathematics"Letsche, T"M W F 2:30PM-3:35PM"34/29/0"SC   041  "2019-20"WI"1.00
+MA   111  01   "Structures of Mathematics II"Becker, J"M W F 1:15PM-2:20PM"34/27/0"SC   140  "2019-20"WI"1.00
+MA   214  01   "Statistical Methods"Birgen, B"MWF 9:00AM-10:05AM"34/36/0"SC   041  "2019-20"WI"1.00
+MA   214  02   "Statistical Methods"Allen, C"MWF 12:00PM-1:05PM"34/35/0"SC   041  "2019-20"WI"1.00
+MA   250  01   "Applied Calculus"Birgen, B"M W F 12:00PM-1:05PM"34/15/0"SC   247  "2019-20"WI"1.00
+MA   251  10   "Foundational Differential Calculus"Becker, J"M W F 7:45AM-8:50AM"34/42/0"SC   214  "2019-20"WI"0.50
+MA   251  11   "Foundational Differential Calculus"Allen, C"M W F 9:00AM-10:05AM"34/27/0"SC   247  "2019-20"WI"0.50
+MA   252  20   "Foundational Integral Calculus"Becker, J"M W F 7:45AM-8:50AM"34/37/0"SC   214  "2019-20"WI"0.50
+MA   252  21   "Foundational Integral Calculus"Allen, C"M W F 9:00AM-10:05AM"34/28/0"SC   247  "2019-20"WI"0.50
+MA   301  01   "Linear Algebra"Becker, J"MWF 2:30PM-3:35PM"34/28/0"SC   247  "2019-20"WI"1.00
+MA   305  01   "Advanced Calculus"Birgen, B"MWF 1:15PM-2:20PM"34/10/0"SC   245  "2019-20"WI"1.00
+MA   312  01   "Teaching Elementary School Math"TeKippe, S"M WF 10:45AM-11:50AM"25/16/0"CLNA 127  "2019-20"WI"1.00
+MA   401  01   "Differential Equations"Allen, C"MWF 7:45AM-8:50AM"34/12/0"SC   345  "2019-20"WI"1.00
+MU   106  01   "Music Theory II"Wachmann, E"M W F 7:45AM-8:50AM"22/16/0"FAC  213  "2019-20"WI"1.00
+MU   106  02   "Music Theory II"Stapleton, S"M W F 9:00AM-10:05AM"22/17/0"FAC  213  "2019-20"WI"1.00
+MU   106  03   "Music Theory II"Stapleton, S"M W F 10:45AM-11:50AM"22/10/0"FAC  213  "2019-20"WI"1.00
+MU   107  01   "Aural Skills I"Reuter, T" T H  8:35AM-9:25AM"19/15/0"FAC  213  "2019-20"WI"0.50
+MU   107  02   "Aural Skills I"Reuter, T" T H  9:35AM-10:25AM"19/14/0"FAC  213  "2019-20"WI"0.50
+MU   107  03   "Aural Skills I"Reuter, T" T H  10:25AM-11:15AM"19/15/0"FAC  213  "2019-20"WI"0.50
+MU   110  01   "Choir"Nelson, L"MTWH 4:50PM-6:15PM"90/82/0"FAC  129  "2019-20"WI"0.25
+MU   111  01   "Castle Singers"Toliver, N"MTWHF 3:50PM-4:40PM"40/21/0"FAC  129  "2019-20"WI"0.25
+MU   112  01   "St. Elizabeth Chorale"Toliver, N"MT H  4:50PM-6:00PM"105/78/0"FAC  104  "2019-20"WI"0.00
+MU   113  01   "Kantorei"Black, K"  W F 3:45PM-4:45PM"50/45/0"CHA  CHA  "2019-20"WI"0.00
+MU   114  01   "Ritterchor"Nelson, L"MT H  3:50PM-4:45PM"75/68/0"CHA  010  "2019-20"WI"0.00
+MU   119  01   "Handbell Choir "Black, K" T    6:30PM-8:00PM"20/8/0"FAC  100  "2019-20"WI"0.00
+MU   120  01   "Wind Ensemble"Hancock, C"MTWHF 4:50PM-6:00PM"65/60/0"FAC  100  "2019-20"WI"0.25
+MU   121  01   "Knightliters Jazzband I"Harding, S"W 8:30PM-10:00PM"25/13/0"FAC  100  "2019-20"WI"0.00
+MU   122  01   "Symphonic Band"Muntefering, S"M WH  3:50PM-4:40PM"100/66/0"FAC  100  "2019-20"WI"0.00
+MU   123  01   "Chamber Music Ensemble: Clarinet Ensemble"Wachmann, E"Null"15/11/0"Null"2019-20"WI"0.00
+MU   123  02   "Chamber Music Ensemble: Flute Choir"Cawley, D"Null"17/7/0"Null"2019-20"WI"0.00
+MU   123  03   "Chamber Music Ensemble: Saxophone"Schumacker, M"Null"14/9/0"Null"2019-20"WI"0.00
+MU   123  06   "Chamber Music Ensemble: Trombone Quartet"Hancock, C"Null"4/3/0"Null"2019-20"WI"0.00
+MU   123  07   "Chamber Music Ensemble: Tuba/Euphonium Choir"Scheffel, R"Null"8/6/0"Null"2019-20"WI"0.00
+MU   123  31   "Chamber Music Ensemble: Percussion Ensemble"Frost, R"Null"8/11/0"Null"2019-20"WI"0.00
+MU   123  32   "Chamber Music Ensemble: Woodwind Quintet"Wachmann, E"Null"8/4/0"Null"2019-20"WI"0.00
+MU   129  20   "Inst Meth:Flute,Clarinet,Saxophone"Scheffel, R"M W   2:30PM-3:20PM"12/12/0"FAC  213  "2019-20"WI"0.25
+MU   130  01   "Wartburg-Comm Symphony Orchestra"Stapleton, S"MH 7:00PM-9:30PM"100/22/0"FAC  104  "2019-20"WI"0.25
+MU   132  01   "Kammerstreicher"Stapleton, S"M     3:50PM-5:05PM"40/14/0"CHA  CHA  "2019-20"WI"0.00
+MU   132  01   "Kammerstreicher"Stapleton, S"  W   3:50PM-5:05PM"40/14/0"FAC  104  "2019-20"WI"0.00
+MU   133  10   "Inst Methods:Oboe, Bassoon"Morton, R" H 1:00PM-2:30PM"8/9/1"FAC  013  "2019-20"WI"0.25
+MU   134  10   "Inst Meth:Trumpet, French Horn"Vaux, J"MW  2:30PM-3:20PM"12/12/0"FAC  213  "2019-20"WI"0.25
+MU   135  20   "Inst Methods:Trombone, Tuba"Mackey, B" T H  7:45AM-8:35AM"12/9/0"FAC  100  "2019-20"WI"0.25
+MU   136  20   "Inst Methods:Mallets"Frost, R" T    1:00PM-2:40PM"10/10/1"FAC  100  "2019-20"WI"0.25
+MU   137  10   "Inst Methods: Drums"Frost, R" T    1:00PM-2:40PM"10/10/0"FAC  100  "2019-20"WI"0.25
+MU   138  10   "Inst Methods:Violin, Viola"Stapleton, S" T   1:00PM-2:40PM"12/12/0"FAC  104  "2019-20"WI"0.25
+MU   139  20   "Inst Methods:Cello, Bass"Jensen, L"  W   7:00PM-8:40PM"10/10/0"FAC  104  "2019-20"WI"0.25
+MU   150  01   "Applied Piano"Reuter, T"T  2:45PM-3:45PM"50/14/0"FAC  115  "2019-20"WI"0.25
+MU   150  02   "Applied Piano"Torkelson, S"T  2:45PM-3:30PM"30/18/0"FAC  122  "2019-20"WI"0.25
+MU   150  03   "Applied Piano"Braaten-Reuter, L"Null"50/6/0"FAC  117  "2019-20"WI"0.25
+MU   150  04   "Applied Piano"Nickles, R"Null"35/0/0"FAC  011  "2019-20"WI"0.25
+MU   150  05   "Applied Piano"Beane, D"Null"35/9/0"FAC  117  "2019-20"WI"0.25
+MU   150  06   "Applied Piano"TBA, T"Null"15/0/0"Null"2019-20"WI"0.25
+MU   151  01   "Listening to Music"Black, K" T H  1:00PM-2:40PM"30/24/0"FAC  212  "2019-20"WI"1.00
+MU   153  01   "Collaborative Pianism "Torkelson, S" T    6:30PM-7:30PM"24/0/0"FAC  213  "2019-20"WI"0.25
+MU   155  00   "Piano Class"Torkelson, S"Null"50/0/0"Null"2019-20"WI"0.25
+MU   155  01   "Piano Class"Torkelson, S"Null"6/6/0"FAC  117  "2019-20"WI"0.25
+MU   155  02   "Piano Class"Torkelson, S"Null"6/0/0"FAC  117  "2019-20"WI"0.25
+MU   155  03   "Piano Class"Torkelson, S"Null"6/0/0"FAC  117  "2019-20"WI"0.25
+MU   155  04   "Piano Class"Torkelson, S"Null"6/6/0"FAC  117  "2019-20"WI"0.25
+MU   155  05   "Piano Class"Torkelson, S"Null"6/5/0"FAC  117  "2019-20"WI"0.25
+MU   155  06   "Piano Class"Torkelson, S"Null"6/5/0"Null"2019-20"WI"0.25
+MU   155  07   "Piano Class"Torkelson, S"Null"6/6/0"Null"2019-20"WI"0.25
+MU   155  08   "Piano Class"Torkelson, S"Null"6/6/0"Null"2019-20"WI"0.25
+MU   155  09   "Piano Class"Torkelson, S"Null"6/6/0"Null"2019-20"WI"0.25
+MU   155  30   "Piano Class"Torkelson, S"Null"6/6/0"Null"2019-20"WI"0.25
+MU   155  31   "Piano Class"Torkelson, S"Null"6/6/0"Null"2019-20"WI"0.25
+MU   155  32   "Piano Class"Torkelson, S"Null"6/3/0"Null"2019-20"WI"0.25
+MU   158  01   "Therapeutic Improvisation"Woodward, A" T    6:30PM-8:00PM"12/12/5"FAC  035  "2019-20"WI"0.25
+MU   160  01   "Applied Organ"Black, K"Null"50/4/0"CHA  CHA  "2019-20"WI"0.25
+MU   170  00   "Applied Voice"TBA, T"Null"75/0/0"Null"2019-20"WI"0.25
+MU   170  01   "Applied Voice"Pfaltzgraff, B"H 2:45PM-3:30PM"50/10/0"Null"2019-20"WI"0.25
+MU   170  02   "Applied Voice"Larson, J"T  2:45PM-3:40PM"50/15/0"FAC  201  "2019-20"WI"0.25
+MU   170  03   "Applied Voice"Gast, D"Null"50/24/0"FAC  205  "2019-20"WI"0.25
+MU   170  04   "Applied Voice"Gast, R"Null"50/11/0"FAC  205  "2019-20"WI"0.25
+MU   170  05   "Applied Voice"Larson, S"Null"25/20/0"Null"2019-20"WI"0.25
+MU   170  06   "Applied Voice"Beane Hanson, K"Null"50/12/0"FAC  204  "2019-20"WI"0.25
+MU   170  07   "Applied Voice"Pfaltzgraff, C"Null"20/11/0"FAC  204  "2019-20"WI"0.25
+MU   170  08   "Applied Voice"Lehmann, M"Null"25/11/0"Null"2019-20"WI"0.25
+MU   170  09   "Applied Voice"Noltner, K"Null"50/8/0"Null"2019-20"WI"0.25
+MU   177  01   "Voice Methods II"Larson, S"   H  6:30PM-7:30PM"15/6/0"FAC  043  "2019-20"WI"0.25
+MU   180  B1   "Applied Euphonium"Hancock, C"Null"100/1/0"FAC  111  "2019-20"WI"0.25
+MU   180  B2   "Applied Brass:French Horn"Harris, C"Null"100/5/0"FAC  012  "2019-20"WI"0.25
+MU   180  B3   "Applied Brass:Trombone"Hancock, C"Null"100/5/0"FAC  111  "2019-20"WI"0.25
+MU   180  B4   "Applied Brass:Trumpet"Muntefering, S"Null"100/5/0"FAC  041  "2019-20"WI"0.25
+MU   180  B5   "Applied Brass:Tuba"Hancock, C"Null"100/2/0"FAC  111  "2019-20"WI"0.25
+MU   180  P1   "Applied Percussion"Frost, R"Null"100/3/0"FAC  016  "2019-20"WI"0.25
+MU   180  W1   "Applied Woodwind:Bassoon"Morton, R"Null"100/2/0"FAC  013  "2019-20"WI"0.25
+MU   180  W2   "Applied Woodwind:Clarinet"Wachmann, E"H 2:50PM-3:40PM"100/4/0"FAC  104  "2019-20"WI"0.25
+MU   180  W2   "Applied Woodwind: Clarinet Lab"Wachmann, E"Null"25/6/0"FAC  104  "2019-20"WI"0.00
+MU   180  W3   "Applied Woodwind: Flute"Cawley, D"T 3:45PM-4:45PM"50/11/0"FAC  104  "2019-20"WI"0.25
+MU   180  W4   "Applied Woodwind:Oboe"Morton, R"Null"100/4/0"FAC  013  "2019-20"WI"0.25
+MU   180  W5   "Applied Woodwind:Saxophone"Schumacker, M"Null"100/12/0"FAC  013  "2019-20"WI"0.25
+MU   180  W6   "Applied Woodwind: Shakuhachi"Wachmann, E"Null"20/0/0"Null"2019-20"WI"0.25
+MU   180  X1   "Applied Euphonium"Scheffel, R"Null"20/0/0"Null"2019-20"WI"0.25
+MU   180  X2   "Applied Woodwind: Clarinet"Mason, C"Null"10/0/0"Null"2019-20"WI"0.25
+MU   180  X4   "Applied Brass: Trumpet"Vaux, J"Null"10/2/0"Null"2019-20"WI"0.25
+MU   180  X5   "Applied Brass: Tuba"Scheffel, R"Null"20/1/0"Null"2019-20"WI"0.25
+MU   180  Y3   "Applied Brass:Trombone"Mackey, B"Null"20/2/0"Null"2019-20"WI"0.25
+MU   181  01   "Field Exp: Elem Music K-8"Toliver, N"Null"25/17/0"Null"2019-20"WI"0.00
+MU   183  01   "Intro to Music Therapy Fieldwork"Ashton, B"    F 10:45AM-11:50AM"12/17/0"FAC  035  "2019-20"WI"0.25
+MU   183  02   "Intro to Music Therapy Fieldwork"Ashton, B"  W   2:30PM-3:35PM"12/14/0"FAC  035  "2019-20"WI"0.25
+MU   184  01   "Music Therapy Pre-Practicum"Ashton, B"Null"20/30/0"Null"2019-20"WI"0.00
+MU   190  G1   "Applied Guitar"Sanders, M"Null"35/6/0"Null"2019-20"WI"0.25
+MU   190  S1   "Applied Strings:Cello"Lebedeva, L"H 2:50PM-3:40PM"100/2/0"Null"2019-20"WI"0.25
+MU   190  S2   "Applied Strings:Viola"Stapleton, S" H 2:50PM-3:40PM"100/3/0"FAC  108  "2019-20"WI"0.25
+MU   190  S3   "Applied Strings:Violin"Stapleton, S"H 2:50PM-3:40PM"100/7/0"FAC  108  "2019-20"WI"0.25
+MU   190  S4   "Applied Strings: Bass"Jensen, L"H 2:50PM-3:40PM"10/3/0"Null"2019-20"WI"0.25
+MU   196  01   "Therapeutic Guitar"Swanson, A"   H  1:15PM-2:20PM"12/11/0"FAC  213  "2019-20"WI"0.25
+MU   196  02   "Therapeutic Guitar"Swanson, A"   H  2:30PM-3:35PM"12/8/0"FAC  213  "2019-20"WI"0.25
+MU   196  03   "Therapeutic Guitar"Swanson, A"    F 10:45AM-11:50AM"12/11/0"FAC  129  "2019-20"WI"0.25
+MU   209  01   "General Music Methods:K-8"Toliver, N"TH 1:00PM-2:40PM"25/17/0"FAC  043  "2019-20"WI"1.00
+MU   214  01   "MT in Medical and Mental Health"Ashton, B"M   F 2:30PM-3:35PM"25/13/0"FAC  035  "2019-20"WI"0.50
+MU   229  10   "Voice Pedagogy I "Larson, J"M W F 2:30PM-3:35PM"20/23/0"FAC  043  "2019-20"WI"0.50
+MU   230  20   "Voice Pedagogy II "Larson, J"M W F 2:30PM-3:35PM"20/8/0"FAC  043  "2019-20"WI"0.50
+MU   250  01   "Applied Piano"Reuter, T"T 2:45PM-3:45PM"30/4/0"FAC  115  "2019-20"WI"0.50
+MU   250  02   "Applied Piano"Torkelson, S"T  2:45PM-3:30PM"10/4/0"FAC  122  "2019-20"WI"0.50
+MU   252  01   "Introduction to Ethnomusicology"Survilla, M"M     6:30PM-9:30PM"25/13/0"FAC  212  "2019-20"WI"1.00
+MU   260  01   "Applied Organ"Black, K"Null"100/1/0"CHA  CHA  "2019-20"WI"0.50
+MU   270  01   "Applied Voice"Pfaltzgraff, B"H 2:45PM-3:30PM"100/11/0"FAC  202  "2019-20"WI"0.50
+MU   270  02   "Applied Voice"Larson, J"T  2:45PM-3:40PM"50/15/0"FAC  201  "2019-20"WI"0.50
+MU   270  03   "Applied Voice"Gast, D"Null"50/2/0"FAC  205  "2019-20"WI"0.50
+MU   270  04   "Applied Voice"Gast, R"Null"100/6/0"FAC  205  "2019-20"WI"0.50
+MU   270  05   "Applied Voice"Larson, S"Null"25/2/0"Null"2019-20"WI"0.50
+MU   270  06   "Applied Voice"Beane Hanson, K"Null"100/7/0"FAC  204  "2019-20"WI"0.50
+MU   270  07   "Applied Voice"Pfaltzgraff, C"Null"10/4/0"FAC  204  "2019-20"WI"0.50
+MU   270  08   "Applied Voice"Lehmann, M"Null"10/2/0"Null"2019-20"WI"0.50
+MU   270  09   "Applied Voice"Noltner, K"Null"20/3/0"Null"2019-20"WI"0.50
+MU   271  01   "Opera Workshop"Pfaltzgraff, B"MTWHF 7:00PM-9:00PM"50/10/0"FAC  129  "2019-20"WI"0.25
+MU   280  B1   "Applied Euphonium"Hancock, C"Null"100/0/0"FAC  111  "2019-20"WI"0.50
+MU   280  B2   "Applied Brass:French Horn"Harris, C"Null"100/3/0"FAC  012  "2019-20"WI"0.50
+MU   280  B3   "Applied Brass:Trombone"Hancock, C"Null"100/3/0"FAC  111  "2019-20"WI"0.50
+MU   280  B4   "Applied Brass:Trumpet"Muntefering, S"Null"100/3/0"FAC  041  "2019-20"WI"0.50
+MU   280  B5   "Applied Brass:Tuba"Hancock, C"Null"100/1/0"FAC  111  "2019-20"WI"0.50
+MU   280  P1   "Applied Percussion"Frost, R"Null"100/4/0"FAC  016  "2019-20"WI"0.50
+MU   280  W1   "Applied Woodwind:Bassoon"Morton, R"Null"100/2/0"FAC  013  "2019-20"WI"0.50
+MU   280  W2   "Applied Woodwind:Clarinet"Wachmann, E"H 2:50PM-3:40PM"100/9/0"FAC  104  "2019-20"WI"0.50
+MU   280  W2   "Applied Woodwind:Clarinet"Wachmann, E"Null"100/9/0"FAC  113  "2019-20"WI"0.50
+MU   280  W3   "Applied Woodwind:Flute"Cawley, D"T 3:45PM-4:45PM"100/7/0"FAC  104  "2019-20"WI"0.50
+MU   280  W4   "Applied Woodwind:Oboe"Morton, R"Null"100/0/0"FAC  013  "2019-20"WI"0.50
+MU   280  W5   "Applied Woodwind:Saxophone"Schumacker, M"Null"100/3/0"FAC  013  "2019-20"WI"0.50
+MU   280  X4   "Applied Brass: Trumpet"Vaux, J"Null"10/0/0"Null"2019-20"WI"0.50
+MU   280  X5   "Applied Brass: Tuba"Scheffel, R"Null"20/0/0"Null"2019-20"WI"0.50
+MU   284  01   "Music Therapy Practicum I"Ashton, B"  W   6:30PM-7:30PM"99/0/0"FAC  035  "2019-20"WI"0.00
+MU   284  02   "Music Therapy Practicum I"Woodward, A"  W   6:30PM-7:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   284  03   "Music Therapy Practicum I"Rewerts, K"  W   6:30PM-7:30PM"20/1/0"FAC  035  "2019-20"WI"0.00
+MU   284  04   "Music Therapy Practicum I"Grimm, M"  W   6:30PM-7:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   284  05   "Music Therapy Practicum I"Idler, K"  W   6:30PM-7:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   284  06   "Music Therapy Practicum I"Cota, M"  W   6:30PM-7:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   285  01   "Music Therapy Practicum II"Ashton, B"  W   6:30PM-7:30PM"20/5/0"FAC  035  "2019-20"WI"0.00
+MU   285  02   "Music Therapy Practicum II"Woodward, A"  W   6:30PM-7:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   285  03   "Music Therapy Practicum II"Rewerts, K"  W   6:30PM-7:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   285  04   "Music Therapy Practicum II"Grimm, M"  W   6:30PM-7:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   285  05   "Music Therapy Practicum II"Idler, K"  W   6:30PM-7:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   285  06   "Music Therapy Practicum II"Cota, M"  W   6:30PM-7:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   285  07   "Music Therapy Practicum II"Anderson, L"  W   6:30PM-7:30PM"20/4/0"FAC  035  "2019-20"WI"0.00
+MU   290  G1   "Applied:Guitar"Sanders, M"Null"50/3/0"FAC  204  "2019-20"WI"0.50
+MU   290  S1   "Applied Strings:Cello"Lebedeva, L"H 2:50PM-3:40PM"100/1/0"Null"2019-20"WI"0.50
+MU   290  S2   "Applied Strings:Viola"Stapleton, S"H 2:50PM-3:40PM"100/0/0"FAC  108  "2019-20"WI"0.50
+MU   290  S3   "Applied Strings:Violin"Stapleton, S"H 2:50PM-3:40PM"100/1/0"FAC  108  "2019-20"WI"0.50
+MU   290  S4   "Applied Strings:Bass"Jensen, L"   H  2:50PM-3:40PM"10/0/0"Null"2019-20"WI"0.50
+MU   312  01   "Psychology of Music"Swanson, A"   H  6:30PM-9:30PM"25/22/0"FAC  035  "2019-20"WI"1.00
+MU   315  01   "Music History I"Survilla, M"MWF 9:00AM-10:05AM"20/19/0"FAC  212  "2019-20"WI"1.00
+MU   315  02   "Music History I"Survilla, M"MWF 10:45AM-11:50AM"20/19/0"FAC  212  "2019-20"WI"1.00
+MU   318  01   "Twentieth Century Music"Survilla, M"M W F 12:00PM-1:05PM"25/24/0"FAC  212  "2019-20"WI"1.00
+MU   318  02   "Twentieth Century Music"Survilla, M"MWF 1:15PM-2:20PM"25/7/0"FAC  212  "2019-20"WI"1.00
+MU   330  01   "Choral & Band Conducting & Lit"Hancock, C"MWF 9:00AM-10:05AM"25/21/0"FAC  100  "2019-20"WI"1.00
+MU   350  01   "Applied Piano"Reuter, T"T 2:45PM-3:45PM"30/1/0"FAC  115  "2019-20"WI"1.00
+MU   360  01   "Applied Organ"Black, K"Null"100/0/0"CHA  CHA  "2019-20"WI"1.00
+MU   370  01   "Applied Voice"Pfaltzgraff, B"   H  2:45PM-3:30PM"100/2/0"FAC  202  "2019-20"WI"1.00
+MU   370  02   "Applied Voice"Larson, J"T  2:45PM-3:40PM"50/1/0"FAC  201  "2019-20"WI"1.00
+MU   370  03   "Applied Voice"Gast, D"Null"50/0/0"FAC  205  "2019-20"WI"1.00
+MU   370  04   "Applied Voice"Gast, R"Null"50/2/0"FAC  205  "2019-20"WI"1.00
+MU   370  05   "Applied Voice"Larson, S"Null"50/0/0"Null"2019-20"WI"1.00
+MU   370  06   "Applied Voice"Beane Hanson, K"Null"100/0/0"Null"2019-20"WI"1.00
+MU   370  07   "Applied Voice"Pfaltzgraff, C"Null"10/1/0"FAC  204  "2019-20"WI"1.00
+MU   370  08   "Applied Voice"Lehmann, M"Null"10/0/0"Null"2019-20"WI"1.00
+MU   370  09   "Applied Voice"Noltner, K"Null"10/0/0"Null"2019-20"WI"1.00
+MU   380  B1   "Applied Euphonium"Hancock, C"Null"100/0/0"FAC  111  "2019-20"WI"1.00
+MU   380  B2   "Applied Brass:French Horn"Harris, C"Null"100/2/0"FAC  012  "2019-20"WI"1.00
+MU   380  B3   "Applied Brass:Trombone"Hancock, C"Null"100/0/0"FAC  111  "2019-20"WI"1.00
+MU   380  B4   "Applied Brass:Trumpet"Muntefering, S"Null"100/0/0"FAC  041  "2019-20"WI"1.00
+MU   380  B5   "Applied Brass:Tuba"Hancock, C"Null"100/0/0"FAC  111  "2019-20"WI"1.00
+MU   380  P1   "Applied Percussion"Frost, R"Null"100/0/0"FAC  016  "2019-20"WI"1.00
+MU   380  W1   "Applied Woodwind:Bassoon"Morton, R"Null"100/0/0"FAC  013  "2019-20"WI"1.00
+MU   380  W2   "Applied Woodwind:Clarinet"Wachmann, E"H 2:50PM-3:40PM"100/2/0"FAC  104  "2019-20"WI"1.00
+MU   380  W2   "Applied Woodwind:Clarinet"Wachmann, E"Null"100/2/0"FAC  113  "2019-20"WI"1.00
+MU   380  W3   "Applied Woodwind:Flute"Cawley, D"T 3:45PM-4:45PM"100/0/0"FAC  104  "2019-20"WI"1.00
+MU   380  W4   "Applied Woodwind:Oboe"Morton, R"Null"100/0/0"FAC  013  "2019-20"WI"1.00
+MU   380  W5   "Applied Woodwind:Saxophone"Schumacker, M"Null"100/0/0"FAC  013  "2019-20"WI"1.00
+MU   382  01   "Music Therapy Practicum III"Ashton, B"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   382  02   "Music Therapy Practicum III"Woodward, A"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   382  03   "Music Therapy Practicum III"Rewerts, K"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   382  04   "Music Therapy Practicum III"Grimm, M"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   382  05   "Music Therapy Practicum III"Idler, K"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   382  06   "Music Therapy Practicum III"Cota, M"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   383  01   "Music Therapy Practicum IV"Ashton, B"  W   7:30PM-8:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   383  02   "Music Therapy Practicum IV"Woodward, A"  W   7:30PM-8:30PM"20/1/0"FAC  035  "2019-20"WI"0.00
+MU   383  03   "Music Therapy Practicum IV"Rewerts, K"  W   7:30PM-8:30PM"20/3/0"FAC  035  "2019-20"WI"0.00
+MU   383  04   "Music Therapy Practicum IV"Grimm, M"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   383  05   "Music Therapy Practicum IV"Idler, K"  W   7:30PM-8:30PM"20/6/0"FAC  035  "2019-20"WI"0.00
+MU   383  06   "Music Therapy Practicum IV"Cota, M"  W   7:30PM-8:30PM"20/4/0"FAC  035  "2019-20"WI"0.00
+MU   390  G1   "Applied Guitar"Sanders, M"Null"50/0/0"Null"2019-20"WI"1.00
+MU   390  S1   "Applied Strings:Cello"Lebedeva, L"H 2:50PM-3:40PM"100/0/0"Null"2019-20"WI"1.00
+MU   390  S2   "Applied Strings:Viola"Stapleton, S"H 2:50PM-3:40PM"100/0/0"FAC  108  "2019-20"WI"1.00
+MU   390  S3   "Applied Strings:Violin"Stapleton, S"H 2:50PM-3:40PM"100/0/0"FAC  108  "2019-20"WI"1.00
+MU   390  S4   "Applied Strings: Bass"Jensen, L"H 2:50PM-3:40PM"10/1/0"Null"2019-20"WI"1.00
+MU   405  01   "Music Therapy Internship"Woodward, A"Null"99/9/0"Null"2019-20"WI"1.00
+MU   409  10   "Contemporary Issues:Music Education"Toliver, N"M W F 10:45AM-11:50AM"20/18/0"FAC  043  "2019-20"WI"0.50
+MU   410  20   "Current Issues in Music Therapy"Woodward, A"M W F 10:45AM-11:50AM"20/11/0"FAC  043  "2019-20"WI"0.50
+MU   485  01   "Music Therapy Practicum V"Ashton, B"  W   7:30PM-8:30PM"20/8/0"FAC  035  "2019-20"WI"0.00
+MU   485  02   "Music Therapy Practicum V"Woodward, A"  W   7:30PM-8:30PM"20/2/0"FAC  035  "2019-20"WI"0.00
+MU   485  03   "Music Therapy Practicum V"Rewerts, K"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   485  04   "Music Therapy Practicum V"Grimm, M"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+MU   485  05   "Music Therapy Practicum V"Idler, K"  W   7:30PM-8:30PM"20/0/0"FAC  035  "2019-20"WI"0.00
+NSC  135  01   "Biology of the Mind"Larimer Bousquet, S"M W F 1:15PM-2:20PM"24/25/0"SC   141  "2019-20"WI"1.00
+NSC  135  01   "Biology of the Mind Lab"Larimer Bousquet, S" T    9:35AM-11:15AM"24/25/0"SC   143  "2019-20"WI"0.00
+NSC  455  01   "Methods of Neuroscience Research"Ventullo, R" T    6:30PM-7:35PM"8/9/0"SC   134  "2019-20"WI"0.50
+NSC  456  01   "Student-Originated Research"Ventullo, R" T    7:45PM-8:50PM"8/13/0"SC   134  "2019-20"WI"0.50
+NSC  461  01   "Neuroscience Seminar"Larimer Bousquet, S" T    7:45AM-9:25AM"18/21/0"SC   141  "2019-20"WI"0.50
+PBH  101  01   "Introduction to Public Health"Prather-O'Kane, A" T    6:30PM-9:30PM"30/30/0"SC   244  "2019-20"WI"1.00
+PBH  455  01   "Applied Public Health Research"Bechtel, M"Null"12/3/0"Null"2019-20"WI"1.00
+PE   100  10   "Lifetime Wellness"Walker, J"MW   7:45AM-8:50AM"25/25/1"W    2238 "2019-20"WI"0.50
+PE   100  10   "Lifetime Wellness"Walker, J"H 2:50PM-3:40PM"25/25/1"SC   102  "2019-20"WI"0.50
+PE   100  11   "Lifetime Wellness"Dolly, A"MW 9:00AM-10:05AM"25/25/0"W    2238 "2019-20"WI"0.50
+PE   100  11   "Lifetime Wellness"Dolly, A"H 2:50PM-3:40PM"25/25/0"SC   102  "2019-20"WI"0.50
+PE   100  12   "Lifetime Wellness"Dietz Parsons, P"MW 10:45AM-11:50AM"25/23/0"W    2238 "2019-20"WI"0.50
+PE   100  12   "Lifetime Wellness"Dietz Parsons, P"H 2:50PM-3:40PM"25/23/0"SC   102  "2019-20"WI"0.50
+PE   100  14   "Lifetime Wellness"Dolly, A"MW 1:15PM-2:20PM"25/25/1"W    2238 "2019-20"WI"0.50
+PE   100  14   "Lifetime Wellness"Dolly, A"H 2:50PM-3:40PM"25/25/1"SC   102  "2019-20"WI"0.50
+PE   100  21   "Lifetime Wellness"Tschetter, M"MW 9:00AM-10:05AM"25/19/0"W    2238 "2019-20"WI"0.50
+PE   100  21   "Lifetime Wellness"Tschetter, M"T  2:50PM-3:40PM"25/19/0"SC   102  "2019-20"WI"0.50
+PE   100  23   "Lifetime Wellness"Tschetter, M"MW 12:00PM-1:05PM"25/26/0"W    2238 "2019-20"WI"0.50
+PE   100  23   "Lifetime Wellness"Tschetter, M"T  2:50PM-3:40PM"25/26/0"SC   102  "2019-20"WI"0.50
+PE   100  24   "Lifetime Wellness"Toohey, P"MW 1:15PM-2:20PM"25/24/0"W    2238 "2019-20"WI"0.50
+PE   100  24   "Lifetime Wellness"Toohey, P"T  2:50PM-3:40PM"25/24/0"SC   102  "2019-20"WI"0.50
+PE   155  01   "Care & Prevention:Athletic Injuries"Walsh, K" T H  7:45AM-9:25AM"25/24/0"W    2238 "2019-20"WI"1.00
+PE   252  01   "Phys Educ for Elementary Grades"Sinram, M"  H 6:30PM-9:30PM"25/7/0"W    2242 "2019-20"WI"1.00
+PE   300  01   "Contemporary Issues in Sport Mgmt"Chapman, R" T H  1:00PM-2:40PM"25/21/0"W    2238 "2019-20"WI"1.00
+PE   351  10   "Kinesiology"Drees, D"MWF 12:00PM-1:05PM"25/27/0"W    2240 "2019-20"WI"0.50
+PE   353  20   "Tests and Measurement"Callahan, R"M W F 12:00PM-1:05PM"25/12/0"W    2240 "2019-20"WI"0.50
+PE   354  10   "Adaptive PE & Fitness"Sinram, M"TH 9:35AM-11:15AM"25/13/0"W    2238 "2019-20"WI"0.50
+PE   355  20   "Biomechanics of Human Movement"Rave, A"M W F 12:00PM-1:05PM"30/12/0"W    2242 "2019-20"WI"0.50
+PE   356  20   "Strength and Conditioning"Toohey, P"MWF 10:45AM-11:50AM"25/16/0"W    2242 "2019-20"WI"0.50
+PE   357  01   "Essentials of Strength Training"Dietz Parsons, P"M W F 7:45AM-8:50AM"25/9/0"W    2242 "2019-20"WI"1.00
+PE   458  10   "Fitness Management Seminar"Chapman, R"Null"25/6/0"Null"2019-20"WI"0.50
+PH   101  01   "Introduction to Philosophy"Schenkewitz, K"Null"18/18/1"Null"2019-20"WI"1.00
+PH   307  01   "Philosophy of Religion"Schenkewitz, K" T H  9:35AM-11:15AM"25/24/0"GRO  132  "2019-20"WI"1.00
+PHY  102  01   "General Physics II"Figura, C"MWF 12:00PM-1:05PM"40/22/0"SC   245  "2019-20"WI"1.00
+PHY  102  01   "General Physics II Lab 1"Bousquet, B" H 7:45AM-9:25AM"20/7/0"SC   343  "2019-20"WI"0.00
+PHY  102  02   "General Physics II Lab 2"Bousquet, B" H 9:35AM-11:15AM"20/15/0"SC   343  "2019-20"WI"0.00
+PHY  130  0R   "Physics of Ordinary Things Lab"Bechtel, M"Null"1/1/0"Null"2019-20"WI"0.00
+PHY  150  01   "Science for Society"Bousquet, B"MWF 12:00PM-1:05PM"24/27/0"SC   140  "2019-20"WI"1.00
+PHY  150  02   "Science for Society"Wright, J"M W F 2:30PM-3:35PM"24/26/0"SC   140  "2019-20"WI"1.00
+PHY  175  01   "Astrobiology: Search For Alien Life"Figura, C"M W F 9:00AM-10:05AM"35/33/0"SC   134  "2019-20"WI"1.00
+PHY  175  01   "Astrobio: Search For Alien Life Lab"Figura, C"   H  1:00PM-2:40PM"35/33/0"SC   134  "2019-20"WI"0.00
+PHY  204  01   "Classical Physics II"Bousquet, B"MWF 10:45AM-11:50AM"20/11/0"SC   041  "2019-20"WI"1.00
+PHY  204  01   "Classical Physics II Lab 1"Bousquet, B"T  7:45AM-9:25AM"20/11/0"SC   343  "2019-20"WI"0.00
+PHY  305  01   "Electronics"Black, D"M W F 10:45AM-11:50AM"36/0/0"SC   244  "2019-20"WI"1.00
+PJ   460  10   "Building Peace and Justice"Schenkewitz, K" T H  1:00PM-2:40PM"25/5/0"GRO  131  "2019-20"WI"0.50
+PJ   461  20   "Research in Peace and Justice"Schenkewitz, K" T H  1:00PM-2:40PM"25/5/0"GRO  131  "2019-20"WI"0.50
+PS   101  01   "Introduction to American Politics"Billet, B"M   6:30PM-9:30PM"30/11/0"CTC  200  "2019-20"WI"1.00
+PS   304  01   "The Developing World"Billet, B"M W F 12:00PM-1:05PM"25/14/0"WBC  217  "2019-20"WI"1.00
+PS   310  01   "Policy Formulation Adm and Analysis"Brooks, S"Null"20/17/0"Null"2019-20"WI"1.00
+PS   421  01   "Adv Research Meth & Data Analysis"Bane, C"M W F 9:00AM-10:05AM"8/0/0"LH   326  "2019-20"WI"1.00
+PS   421  02   "Adv Research Meth & Data Analysis"Munir, S"M W F 10:45AM-11:50AM"8/1/0"LH   333  "2019-20"WI"1.00
+PS   421  03   "Adv Research Meth & Data Analysis"Reiher, T"M W F 12:00PM-1:05PM"8/0/0"LH   330  "2019-20"WI"1.00
+PS   460  01   "Perspectives in Political Science"Billet, B" T   6:30PM-9:30PM"20/8/0"LH   201  "2019-20"WI"1.00
+PSY  101  01   "Introduction to Psychology"Bane, C" T H  7:45AM-9:25AM"80/55/0"WBC  214  "2019-20"WI"1.00
+PSY  101  03   "Introduction to Psychology"Ribich, F" T H  1:00PM-2:40PM"40/41/0"WBC  116  "2019-20"WI"1.00
+PSY  210  10   "Child Development"Munir, S" T H  1:00PM-2:40PM"30/10/0"LH   329  "2019-20"WI"0.50
+PSY  211  20   "Adolescent Development"Munir, S" T H  1:00PM-2:40PM"30/10/0"LH   329  "2019-20"WI"0.50
+PSY  224  01   "Abnormal Psychology"Reiher, T"MWF 10:45AM-11:50AM"30/33/0"LH   330  "2019-20"WI"1.00
+PSY  225  01   "Life-Span Human Development"Munir, S"MWF 9:00AM-10:05AM"30/29/0"CTC  200  "2019-20"WI"1.00
+PSY  229  01   "Theories of Personality"Bane, C"M W F 12:00PM-1:05PM"30/32/2"LH   201  "2019-20"WI"1.00
+PSY  270  10   "Perspectives in Psychology I"Bane, C" T H  1:00PM-2:40PM"15/26/0"LH   326  "2019-20"WI"0.50
+PSY  381  01   "Field Experience Urban Peak"Lorenz, G"Null"1/1/0"Null"2019-20"WI"2.00
+PSY  421  01   "Adv Research Meth & Data Analysis"Bane, C"MWF 9:00AM-10:05AM"8/7/0"LH   326  "2019-20"WI"1.00
+PSY  421  02   "Adv Research Meth & Data Analysis"Munir, S"M W F 10:45AM-11:50AM"8/9/0"LH   333  "2019-20"WI"1.00
+PSY  421  03   "Adv Research Meth & Data Analysis"Reiher, T"M W F 12:00PM-1:05PM"8/4/0"LH   330  "2019-20"WI"1.00
+PSY  422  01   "Advanced Cognitive Psychology"Reiher, T"M     6:30PM-9:30PM"12/2/0"LH   330  "2019-20"WI"1.00
+PSY  423  01   "Advanced Social Psychology"Reiher, T"M     6:30PM-9:30PM"12/1/0"LH   330  "2019-20"WI"1.00
+PSY  424  01   "Advanced Clinical Psychology"Reiher, T"M     6:30PM-9:30PM"12/2/0"LH   330  "2019-20"WI"1.00
+PSY  425  01   "Advanced Human Development"Reiher, T"M     6:30PM-9:30PM"12/3/0"LH   330  "2019-20"WI"1.00
+PSY  426  01   "Advanced Neuropsychology"Reiher, T"M     6:30PM-9:30PM"12/6/0"LH   330  "2019-20"WI"1.00
+PSY  470  20   "Perspective in Psych II"Reiher, T" T H  1:00PM-2:40PM"15/19/1"LH   326  "2019-20"WI"0.50
+RE   101  01   "Lit of Old & New Testament"Wendland, K"MWF 7:45AM-8:50AM"30/33/0"GRO  131  "2019-20"WI"1.00
+RE   101  02   "Lit of Old & New Testament"Schedtler, J"MWF 9:00AM-10:05AM"30/31/1"GRO  131  "2019-20"WI"1.00
+RE   101  03   "Lit of Old & New Testament"Schedtler, J"MWF 10:45AM-11:50AM"30/32/1"GRO  131  "2019-20"WI"1.00
+RE   101  04   "Lit of Old & New Testament"Wendland, K"MWF 12:00PM-1:05PM"30/27/1"GRO  131  "2019-20"WI"1.00
+RE   101  05   "Lit of Old & New Testament"Schenkewitz, K"M W F 1:15PM-2:20PM"30/30/1"GRO  131  "2019-20"WI"1.00
+RE   101  06   "Lit of Old & New Testament"Fever, K"   H  6:30PM-9:30PM"30/32/1"GRO  131  "2019-20"WI"1.00
+RE   101  07   "Lit of Old & New Testament"Fever, K"Null"18/18/1"Null"2019-20"WI"1.00
+RE   202  01   "World Religions in Dialogue"Noh, M"M W F 7:45AM-8:50AM"25/27/1"GRO  016  "2019-20"WI"1.00
+RE   202  02   "World Religions in Dialogue"Noh, M"M W F 1:15PM-2:20PM"25/25/3"GRO  132  "2019-20"WI"1.00
+RE   307  01   "Philosophy of Religion"Schenkewitz, K" T H  9:35AM-11:15AM"25/22/0"GRO  132  "2019-20"WI"1.00
+RE   310  01   "Living with Death"Wendland, K"TH 9:35AM-11:15AM"35/37/2"GRO  016  "2019-20"WI"1.00
+RE   340  01   "Islam and the Modern World"Noh, M"M W F 10:45AM-11:50AM"25/26/0"GRO  132  "2019-20"WI"1.00
+RE   374  01   "Church Leadership After Christendom"Beckstrom, B"M W F 12:00PM-1:05PM"20/18/0"GRO  132  "2019-20"WI"1.00
+RE   460  01   "Church in the Modern World"Riswold, C"M W F 10:45AM-11:50AM"25/8/0"GRO  016  "2019-20"WI"1.00
+SCH  115  10   "Opportunities Seminar"Zart, L"M     6:30PM-8:10PM"25/14/0"SC   244  "2019-20"WI"0.25
+SCH  115  20   "Opportunities Seminar"Zart, L"  W   6:30PM-8:10PM"25/17/0"SC   244  "2019-20"WI"0.25
+SCH  202  01   "Living in a Diverse World (Honors): Stardom and Scandal"Clark, R"M W F 9:00AM-10:05AM"25/8/0"LH   329  "2019-20"WI"1.00
+SO   101  01   "Introduction to Sociology"Sundblad, D"MWF 9:00AM-10:05AM"30/33/0"LH   327  "2019-20"WI"1.00
+SO   101  02   "Introduction to Sociology"McQueen, J"M W F 10:45AM-11:50AM"30/39/0"SC   134  "2019-20"WI"1.00
+SO   302  01   "Communities"Sundblad, D"M W F 10:45AM-11:50AM"35/18/0"LH   327  "2019-20"WI"1.00
+SO   421  01   "Adv Research Meth & Data Analysis"Bane, C"M W F 9:00AM-10:05AM"8/0/0"LH   326  "2019-20"WI"1.00
+SO   421  02   "Adv Research Meth & Data Analysis"Munir, S"M W F 10:45AM-11:50AM"8/1/0"LH   333  "2019-20"WI"1.00
+SO   421  03   "Adv Research Meth & Data Analysis"Reiher, T"M W F 12:00PM-1:05PM"8/0/0"LH   330  "2019-20"WI"1.00
+SO   422  01   "Qualitative Research Methods"Sundblad, D" T H  9:35AM-11:15AM"20/7/0"LH   324  "2019-20"WI"1.00
+SP   104  01   "Elementary Spanish I"Cleveland, S"MWF 9:00AM-10:05AM"25/23/1"LH   324  "2019-20"WI"1.00
+SP   106  01   "Elementary Spanish II"Cleveland, S"M W F 10:45AM-11:50AM"25/22/0"LH   201  "2019-20"WI"1.00
+SP   204  01   "Intermediate Spanish I"Dobrila, E"MWF 12:00PM-1:05PM"20/9/0"LH   329  "2019-20"WI"1.00
+SP   206  01   "Intermediate Spanish II"Ramirez Martinez, M"MWF 10:45AM-11:50AM"20/8/0"LH   324  "2019-20"WI"1.00
+SP   206  02   "Intermediate Spanish II"Ramirez Martinez, M"M W F 2:30PM-3:35PM"20/6/0"LH   324  "2019-20"WI"1.00
+SP   304  01   "Spanish Tutoring"Montgomery, Z"Null"20/5/0"Null"2019-20"WI"0.50
+SP   306  01   "Spanish for Heritage Speakers"Montgomery, Z"M W F 12:00PM-1:05PM"20/9/0"LH   326  "2019-20"WI"1.00
+SP   316  01   "Hispanic Women"Montgomery, Z"M W F 10:45AM-11:50AM"20/20/0"LH   326  "2019-20"WI"1.00
+SP   326  01   "Spanish Phonetics and Pronunciation"Ramirez Martinez, M"M W F 12:00PM-1:05PM"20/22/0"LH   324  "2019-20"WI"1.00
+SW   101  01   "Intro Social Work & Social Welfare"Peters, A"MWF 12:00PM-1:05PM"25/23/0"OM   200  "2019-20"WI"1.00
+SW   202  01   "Group and Organizational Behavior"Peters, A"TH 1:00PM-2:40PM"30/27/0"OM   200  "2019-20"WI"1.00
+SW   250  01   "Current Topics in Social Work Pract:Mental Health/Trauma Informed Care"Haberman-Foelske, K" T H  9:35AM-11:15AM"25/16/0"CTC  200  "2019-20"WI"1.00
+SW   300  01   "Social Policy"Peters, A" T H  9:35AM-11:15AM"20/17/0"OM   101  "2019-20"WI"1.00
+SW   301  01   "Social Work Practice I"Faux, T"MWF 9:00AM-10:05AM"25/15/0"OM   200  "2019-20"WI"1.00
+SW   400  01   "Senior Integrative Seminar"Faux, T"F 1:15PM-4:15PM"20/6/0"OM   101  "2019-20"WI"1.00
+SW   400  02   "Senior Integrative Seminar"Vogen, J"Null"15/7/0"Null"2019-20"WI"1.00
+SW   401  01   "Supervised Field Instruction"Faux, T"F 12:00PM-1:05PM"20/6/0"OM   101  "2019-20"WI"1.00
+SW   401  02   "Supervised Field Instruction"Vogen, J"Null"15/7/0"Null"2019-20"WI"1.00
+SW   402  01   "Supervised Field Instruction"Faux, T"Null"20/6/0"Null"2019-20"WI"1.00
+SW   402  02   "Supervised Field Instruction"Vogen, J"Null"15/7/0"Null"2019-20"WI"1.00
+SW   403  01   "Supervised Field Instruction"Faux, T"Null"20/6/0"Null"2019-20"WI"1.00
+SW   403  02   "Supervised Field Instruction"Vogen, J"Null"15/7/0"Null"2019-20"WI"1.00
+WS   282  01   "Women in Early World History"Barnhouse, L" T H  1:00PM-2:40PM"25/2/0"LH   333  "2019-20"WI"1.00
+WW   999  01   "Wartburg West"Lorenz, G"Null"20/0/0"Null"2019-20"WI"2.00

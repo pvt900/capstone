@@ -5,6 +5,7 @@
 
 import mechanicalsoup
 import pandas as pd
+import os,time
 from bs4 import BeautifulSoup as soup
 from datetime import datetime
 
@@ -71,6 +72,16 @@ class CourseSearch:
         combined = pd.concat([historic,winnet])
         combined = combined.drop_duplicates(subset=cols, keep='last')
         combined.set_index(['Course_ID','Year','Term'], inplace=True)
+        combined.to_csv(r'course_history.txt',header=None,index=None,sep='"',mode='a')
+        winnet.to_csv(r'Changelog.txt',header=None,index=None,sep='"',mode='a')
+        historic.to_csv(r'historic_legacy.txt',header=None,index=None,sep='"',mode='a')
+        timestr = time.strftime("%Y-%m-%d")
+        changelog = "Changelog"+timestr+".txt"
+        historic_V = 'historic_legacy'+timestr+'.txt'
+        #os.rename is to append the Current Date as pd.dataFrame.to_csv can't take a variable str w/ Datetime
+        #os.rename will not change filename if the filename already exists
+        os.rename('Changelog.txt',changelog)
+        os.rename('historic_legacy.txt',historic_V)
         
     def set_keyword(self,key):
         '''
@@ -179,7 +190,7 @@ class CourseSearch:
         '''
         if wi == True:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'WI')
-        elif wi == False:
+        else:
             self.page.set('ctl00$ContentPlaceHolder1$FormView1$DropDownList_WritingIntensive', 'none')
 
     def is_pf(self,pf):
